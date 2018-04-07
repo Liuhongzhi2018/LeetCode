@@ -5,6 +5,7 @@
 你可以假设每个输入都只会有一种答案，同样的元素不能被重用。
 
 ## 编程实现
+'''
 int* twoSum(int* nums, int numsSize, int target) {
 	int n = numsSize;
 	int sum = target;
@@ -16,3 +17,4 @@ int* twoSum(int* nums, int numsSize, int target) {
 	}
 	return 0;
 }
+'''
