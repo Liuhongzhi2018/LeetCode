@@ -7,14 +7,14 @@
 ## 编程实现
 ``` C
 int* twoSum(int* nums, int numsSize, int target) {  
-	int n = numsSize;  
-	int sum = target;  
-	for (int i = 0; i < n-1; i++)  
+   int n = numsSize;  
+   int sum = target;  
+   for (int i = 0; i < n-1; i++)  
 	{  
-		for (int j = i + 1; j < n ; j++)  
-			if (nums[i] + nums[j] == sum)  
-				cout<<"[ "<<i<<" , "<<j<<" ] "<<endl;
+	for (int j = i + 1; j < n ; j++)  
+	    if (nums[i] + nums[j] == sum)  
+		cout<<"[ "<<i<<" , "<<j<<" ] "<<endl;
 	}  
-	return 0;  
+    return 0;  
 }
 ```
