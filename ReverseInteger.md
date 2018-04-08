@@ -9,20 +9,20 @@
 ## 编程实现
 ``` C
 int reverse(int x) {
-	int i;
-	int n = 0;
-	  if (x < 0) {
-		  printf("-");
-		  i = 0 - x;
+    int i;
+    int n = 0;
+    if (x < 0) {
+	printf("-");
+        i = 0 - x;
 	}
-	  do {
-		  printf("%d", i % 10);
-		  n++;
-		  if (n>32) break;
-	} 
-  while ((i /= 10) != 0);
-	if (n <= 32) return x;
-	else return 0;
+	do {
+           printf("%d", i % 10);
+           n++;
+           if (n>32) break;
+	} while ((i /= 10) != 0);
+
+     if (n <= 32) return x;
+     else return 0;
 }
 ```
 
