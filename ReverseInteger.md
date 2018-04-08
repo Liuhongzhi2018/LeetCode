@@ -21,7 +21,7 @@ int reverse(int x) {
            if (n>32) break;
 	} while ((i /= 10) != 0);
 
-     if (n <= 32) return x;
+     if (n <= 32) return i;
      else return 0;
 }
 ```
