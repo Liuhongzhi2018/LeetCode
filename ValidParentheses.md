@@ -26,7 +26,7 @@ bool isValid(char* s) {
             if(i>=0 && a[i]=='[')i--;  
             else return false;  
         }
-        a[++i]=*s;  
+        else a[++i]=*s;   
         s++;  
     }  
     return i==-1;  
