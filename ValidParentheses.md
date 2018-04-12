@@ -11,24 +11,26 @@ The brackets must close in the correct order, "()" and "()[]{}" are all valid bu
 
 ## 代码实现
 ``` C
-bool isValid(char* s) {
-	char *a = s;
-	int n = strlen(a);
-	int flag = 1;
-	for (int i = 0; i < n; i++) {
-		if (a[i] == '('&&a[i + 1] != ')') {
-			flag = 0; break;
-		}
-		if (a[i] == '['&&a[i + 1] != ']') {
-			flag = 0; break;
-		}
-		if (a[i] == '{'&&a[i + 1] != '}') {
-			flag = 0; break;
-		}
-	}
-	if (flag)  return true;
-	else return false;
-}
+bool isValid(char* s) {  
+    char a[1000000];  
+    int i=-1;  
+    while(*s!='\0'){  
+        if(*s==')'){  
+            if(i>=0 && a[i]=='(')i--;  
+            else return false;  
+        }
+        if(*s=='}'){  
+            if(i>=0 && a[i]=='{')i--;  
+            else return false;  
+        }if(*s==']'){  
+            if(i>=0 && a[i]=='[')i--;  
+            else return false;  
+        }
+        a[++i]=*s;  
+        s++;  
+    }  
+    return i==-1;  
+}  
 ```
 
 ## 总结体会
