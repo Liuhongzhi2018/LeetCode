@@ -1,7 +1,7 @@
 # Palindrome Number
 
 ## 问题分析
-Determine whether an integer is a palindrome. Do this without extra space.
+Determine whether an integer is a palindrome.　Do this without extra space.
 
 判断一个整数是否是回文数。不能使用辅助空间。
 
