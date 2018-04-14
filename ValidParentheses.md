@@ -1,9 +1,9 @@
 # Valid Parentheses
 
 ## 问题分析
-Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
+Given a string containing just the characters '(', ')',　'{', '}',　'[' and ']',　determine if the input string is valid.
 
-The brackets must close in the correct order, "()" and "()[]{}" are all valid but "(]" and "([)]" are not.
+The brackets must close in the correct order,　"()" and "()[]{}" are all valid but "(]" and "([)]" are not.
 
 给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串，判断字符串是否有效。
 
