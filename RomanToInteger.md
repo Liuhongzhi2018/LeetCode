@@ -2,7 +2,7 @@
 # Roman to Integer
 
 ## 问题描述
-Given a roman numeral, convert it to an integer.
+Given a roman numeral,　convert it to an integer.
 Input is guaranteed to be within the range from 1 to 3999.
 
 给定一个罗马数字，将其转换成整数。返回的结果要求在 1 到 3999 的范围内。
