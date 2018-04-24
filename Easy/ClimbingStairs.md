@@ -16,7 +16,6 @@ Note: Given n will be a positive integer.
 
 ## 代码实现
 ``` C
-int climbStairs(int n) {
    int climbStairs(int n) {
     if (n < 0) return -1;
 	if (n == 0) return 0;
@@ -30,7 +29,7 @@ int climbStairs(int n) {
 	}
 	return a[n - 1];
 }
-}
+
 ```
 
 ## 总结体会
