@@ -1,7 +1,7 @@
 #  Best Time to Buy and Sell Stock
 
 ## 问题分析
-Say you have an array for which the $i^{th} $ element is the price of a given stock on day $ i $.
+Say you have an array for which the i<sup>th</sup> element is the price of a given stock on day i.
 
 If you were only permitted to complete at most one transaction (i.e., buy one and sell one share of the stock), design an algorithm to find the maximum profit.
 
@@ -40,7 +40,7 @@ int maxProfit(int* prices, int pricesSize) {
 
 在求后项与前项差值时，用temp变量保存差值，如果比当前max值大则赋值给max，否则max值不变。为提高计算效率，当数组元素小于或者等于1时，最大差值均为0，因为只有一个元素和自己作减法显然为0。
 
-本题较为简单，第一次OJ可以Accepted。同时在编辑本文问题分析部分时，学习了markdown上标的写法，与LaTeX的语法是相同的，用行内公式加上标。
+本题较为简单，第一次OJ可以Accepted。同时在编辑本文问题分析部分时，学习了markdown上标的写法，即sup和/sup间加上标内容th，显示为i的上标th。
 
 
 
