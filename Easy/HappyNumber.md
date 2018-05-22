@@ -40,4 +40,4 @@ bool isHappy(int n) {
 
 本题要求判断快乐数，可转化为循环求各个位平方和是否最后为1的判断要求。
 
-算法设计上，用Square函数计算各个位数字的平方和，进行的是取余平方求和再除10判断再循环的过程。在isHappy函数中，pre为前向变量，next为后向变量且步进比pre多1，这样pre与next终会相等。如果满足Happy数条件，最终pre和next将均与1相等，返回true;否则pre与next相等时不为1，则不满足Happy数条件,返回false。
+算法设计上，用Square函数计算各个位数字的平方和，进行的是取余平方求和再除10判断再循环的过程。在isHappy函数中，pre为前向变量，next为后向变量且步进比pre多1，这样pre与next终会相等。如果满足Happy数条件，最终pre和next将均与1相等，返回true；否则pre与next相等时不为1，则不满足Happy数条件,返回false。
