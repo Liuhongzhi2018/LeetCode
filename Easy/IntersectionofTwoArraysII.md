@@ -10,29 +10,27 @@ Note: Each element in the result should appear as many times as it shows in both
 注意：输出结果中每个元素出现的次数，应与元素在两个数组中出现的次数一致。我们可以不考虑输出结果的顺序。
 
 ## 代码实现
-``` Java
+``` C++
 class Solution {
-    public int[] intersect(int[] nums1, int[] nums2) {
-        int len1 =  nums1.length;    
-        int len2 =  nums2.length;    
-        int[] result = new int[Math.min(len1, len2)];  
-        int len = 0, i = 0, j = 0;  
-        Arrays.sort(nums1);  
-        Arrays.sort(nums2);  
-        while (i < len1 && j < len2) {  
-            if (nums1[i] == nums2[j]) {  
-                result[len] =nums1[i];  
-                len++;  
-                i++;  
-                j++;  
-            }  
-            else if (nums1[i] < nums2[j])   i++;  
-            else   j++;  
-        }  
-        result = Arrays.copyOf(result, len);  
-        return result;    
-    }  
-}
+public:
+    vector<int> intersect(vector<int>& nums1, vector<int>& nums2) {
+        sort(nums1.begin(), nums1.end());
+        sort(nums2.begin(), nums2.end());
+        int len1 = (int)nums1.size(), len2 = (int)nums2.size();
+        int i = 0, j = 0;
+        vector<int> res;
+        while(i < len1 && j < len2){
+            if(nums1[i] == nums2[j]) {
+                res.push_back(nums1[i]);
+                i++;
+                j++;
+            }
+            else if(nums1[i] > nums2[j])   j++;
+            else  i++;
+        }
+        return res;
+    }
+};
 ```
 
 ## 总结体会
