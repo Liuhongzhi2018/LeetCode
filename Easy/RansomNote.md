@@ -31,5 +31,5 @@ bool canConstruct(char* ransomNote, char* magazine) {
 
 本题要求判断第一个字符串ransom能否由第二个字符串magazine组成，即第二个字符串需要含有第一个字符串所有字母。
 
-在算法设计上，采用的hash表，哈希表大小定义为256。建立2个哈希表hash1和hash2，分别统计每个字符串出现的次数，最后比较hash1和hash2，返回第二个字符串是否符合要求.
+在算法设计上，采用的hash表，哈希表大小定义为256。建立2个哈希表hash1和hash2，分别统计每个字符串出现的次数，最后比较hash1和hash2，返回第二个字符串是否符合要求。
 
