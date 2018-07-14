@@ -17,17 +17,17 @@ public:
         vector<string> com;
         if (digits.empty()) return com;
         string ditstr[] = {"abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz"};
-        letterCombinationsDFS(digits, ditstr, 0, "", com);
+        traverse(digits, ditstr, 0, "", com);
         return com;
     }
-    void letterCombinationsDFS(string digits, string dict[], int level, string out, vector<string> &res) {
+    void traverse(string digits, string dis[], int gen, string out, vector<string> &ret) {
         int i;
-        if (level == digits.size()) res.push_back(out);
+        if (gen == digits.size()) ret.push_back(out);
         else {
-            string str = dict[digits[level] - '2'];
+            string str = dis[digits[gen] - '2'];
             for (i = 0; i < str.size(); i++) {
                 out.push_back(str[i]);
-                letterCombinationsDFS(digits, dict, level + 1, out, res);
+                traverse(digits, dis, gen + 1, out, ret);
                 out.pop_back();
             }
         }
@@ -39,7 +39,7 @@ public:
 
 本题要求从给出的电话数字中，得到所有字母的排列组合方式。
 
-算法设计上，首先声明一个字符串保存所有电话上的字母组合，其次调用递归函数letterCombinationsDFS，将所得到的字符串res返回，将com字符串返回即为所求。
+算法设计上，首先声明一个字符串保存所有电话上的数字与字母的对应组合，其次调用递归函数traverse，遍历所给数组中的数字；最后将所得到的字符串组合ret返回到letterCombinations函数，com字符串返回即为所求。
 
 
 
