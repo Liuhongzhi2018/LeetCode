@@ -27,7 +27,7 @@ void generate(char** comb,int* size,int l,int r,char* tmp,int index){
     if(r && l<r){
         tmp[index]=')';
         generate(comb,size,l,r-1,tmp,index+1);
-    }s
+    }
 }
 char** generateParenthesis(int n, int* returnSize) {
     char** comb;
