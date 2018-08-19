@@ -1,7 +1,7 @@
 #  Pow(x, n)
 
 ## 问题分析
-Implement pow(x, n), which calculates x raised to the power $n(x^n)$.
+Implement pow(x, n), which calculates x raised to the power n(x<sup>n</sup>).
 
 
 
