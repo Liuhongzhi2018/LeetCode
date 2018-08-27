@@ -21,13 +21,12 @@ public:
             cnt *= (i + 1);
         }
         k--;
-		string res = "";
+		    string res = "";
         for(i = 0 ; i < n; i++) {
-			cnt = cnt/(n-i);
+			      cnt = cnt/(n-i);
             sel = k / cnt;
-			res += ('0' + nums[sel]);
-            for(j = sel; j < n-i-1; j++)
-                nums[j] = nums[j+1];
+			      res += ('0' + nums[sel]);
+            for(j = sel; j < n-i-1; j++)   nums[j] = nums[j+1];
             k = k % cnt;
         }
         return res;
