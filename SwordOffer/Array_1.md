@@ -25,6 +25,8 @@ class Solution:
         else:
             return False
 ```
+运行时间：224ms
+占用内存：5832k
 
 
 2.根据递增排序查找，先找到所在行，再按列查找
@@ -47,3 +49,6 @@ class Solution:
                         return True
         return False
 ```
+
+运行时间：419ms
+占用内存：5708k
