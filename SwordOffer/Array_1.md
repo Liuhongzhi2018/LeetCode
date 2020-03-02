@@ -28,7 +28,7 @@ class Solution:
 
 
 2.根据递增排序查找，先找到所在行，再按列查找
-```
+```python
 # -*- coding:utf-8 -*-
 class Solution:
     # array 二维列表
