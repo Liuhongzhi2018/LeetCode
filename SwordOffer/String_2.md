@@ -39,6 +39,7 @@ class Solution:
 1. 递归法。
 
 如果 s和pattern都为空，匹配成功
+
 如果pattern是空串，而s不是，匹配失败
 
 如果s，pattern均不是空串(长度至少为1)，考虑到pattern中'\*'前字符可以出现0次，所以不能简单比较s和pattern的第一个字符是否相等，这里分为两种情况考虑：
@@ -48,4 +49,5 @@ class Solution:
 1).例如s=aaab，pattern=a\*b，'\*'前的字符在s中出现不止一次，需s后移一位；
 2).例如s=abb，pattern=a\*bb，'\*'前的字符在s中只出现一次，需pattern后移两位，同时s后移一位；
 3).例如s=abb，pattern=a\*abb，此时'\*'前后字符相同，所以这里实际上s与pattern的第三个字符匹配。需pattern后移两位，同时s不变，相当于忽略x\*，认为'\*'前的字符在s中出现了0次；否则仅模式串pattern后移两位，s不变，含义同上；
+
 (2).如果pattern的第二个字符不是'\*'：如果s与pattern的第一个字符匹配（含义同上），s和pattern同时后移一位，继续匹配；否则匹配失败。
