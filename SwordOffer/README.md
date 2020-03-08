@@ -28,4 +28,5 @@
 
 |                  Title                   |                  Python                  |                   C++                    |                   Blog                   |
 | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
-|     二维数组中的查找                   | [Python](https://github.com/Jack-Cherish/LeetCode/blob/master/Array/Easy/1.Two%20Sum.md) | |
+|     二维数组中的查找                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_1.md) | |
+|     二维数组中的查找                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_2.md) | |
