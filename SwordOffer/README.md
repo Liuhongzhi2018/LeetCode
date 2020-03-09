@@ -57,3 +57,4 @@
 |     替换空格                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/String_1.md) | |
 |     正则表达式匹配                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/String_2.md) | |
 |     表示数值的字符串                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/String_3.md) | |
+|     字符流中第一个不重复的字符                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/String_4.md) | |
