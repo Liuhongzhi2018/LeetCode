@@ -58,3 +58,19 @@
 |     正则表达式匹配                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/String_2.md) | |
 |     表示数值的字符串                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/String_3.md) | |
 |     字符流中第一个不重复的字符                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/String_4.md) | |
+
+### 链表 (LinkedList) (8道)
+
+
+* [剑指Offer（三）：从尾到头打印链表](http://cuijiahua.com/blog/2017/11/basis_3.html "悬停显示")
+* [剑指Offer（十四）：链表中倒数第k个结点](http://cuijiahua.com/blog/2017/12/basis_14.html "悬停显示")
+* [剑指Offer（十五）：反转链表](http://cuijiahua.com/blog/2017/12/basis_15.html "悬停显示")
+* [剑指Offer（十六）：合并两个排序的链表](http://cuijiahua.com/blog/2017/12/basis_16.html "悬停显示")
+* [剑指Offer（二十五）：复杂链表的复制](http://cuijiahua.com/blog/2017/12/basis_25.html "悬停显示")
+* [剑指Offer（三十六）：两个链表的第一个公共结点](http://cuijiahua.com/blog/2018/01/basis_36.html "悬停显示")
+* [剑指Offer（五十五）：链表中环的入口结点](http://cuijiahua.com/blog/2018/01/basis_55.html "悬停显示")
+* [剑指Offer（五十六）：删除链表中重复的结点](http://cuijiahua.com/blog/2018/01/basis_56.html "悬停显示")
+
+|                  Title                   |                  Python                  |                   C++                    |                   Blog                   |
+| :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
+|      从尾到头打印链表                    | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/String_1.md) | |
