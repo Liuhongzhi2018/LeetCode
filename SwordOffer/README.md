@@ -75,3 +75,4 @@
 | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
 |      从尾到头打印链表                    | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/LinkedList_1.md) | |
 |      链表中环的入口结点                    | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/LinkedList_2.md) | |
+|      删除链表中重复的结点                    | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/LinkedList_3.md) | |
