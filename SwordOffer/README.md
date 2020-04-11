@@ -76,3 +76,25 @@
 |      从尾到头打印链表                    | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/LinkedList_1.md) | |
 |      链表中环的入口结点                    | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/LinkedList_2.md) | |
 |      删除链表中重复的结点                    | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/LinkedList_3.md) | |
+
+
+### 递归和循环（Recursion and loop）(4道)：
+
+* [剑指Offer（七）：裴波那契数列](http://cuijiahua.com/blog/2017/11/basis_7.html "悬停显示")
+* [剑指Offer（八）：跳台阶](http://cuijiahua.com/blog/2017/11/basis_8.html "悬停显示")
+* [剑指Offer（九）：变态跳台阶](http://cuijiahua.com/blog/2017/11/basis_9.html "悬停显示")
+* [剑指Offer（十）：矩形覆盖](http://cuijiahua.com/blog/2017/11/basis_10.html "悬停显示")
+
+|                  Title                   |                  Python                  |                   C++                    |                   Blog                   |
+| :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
+|      斐波那契数列                     | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Loop_1.md) | |
+|      跳台阶                    | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Loop_2.md) | |
+|      变态跳台阶                    | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Loop_3.md) | |
+
+### 时间空间效率的平衡 (4道)：
+
+* [剑指Offer（三十三）：丑数](http://cuijiahua.com/blog/2018/01/basis_33.html "悬停显示")
+
+|                  Title                   |                  Python                  |                   C++                    |                   Blog                   |
+| :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
+|      丑数                     | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/B_1.md) | |
