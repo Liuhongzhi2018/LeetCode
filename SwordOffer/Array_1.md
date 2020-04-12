@@ -52,3 +52,27 @@ class Solution:
 
 运行时间：419ms
 占用内存：5708k
+
+```
+# -*- coding:utf-8 -*-
+class Solution:
+    # array 二维列表
+    def Find(self, target, array):
+        # write code here
+        row = len(array)
+        column = len(array[0])
+        i, j = 0, column - 1
+        while i < row and j >= 0:
+            value = array[i][j]
+            if value == target:
+                return True
+            elif value > target:
+                j -= 1
+            else:
+                i += 1
+            
+        return False
+```
+运行时间：364ms
+
+占用内存：5996k

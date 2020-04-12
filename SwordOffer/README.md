@@ -38,6 +38,7 @@
 |     二维数组中的查找                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_1.md) | |
 |     数组中重复的数字                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_2.md) | |
 |     构建乘积数组                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_3.md) | |
+|      旋转数组的最小数字                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_4.md) | |
 
 ### 字符串 (String) (8道):
 
@@ -90,6 +91,17 @@
 |      斐波那契数列                     | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Loop_1.md) | |
 |      跳台阶                    | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Loop_2.md) | |
 |      变态跳台阶                    | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Loop_3.md) | |
+
+
+### 栈和队列（Stack）(3道)：
+
+* [剑指Offer（五）：用两个栈实现队列](http://cuijiahua.com/blog/2017/11/basis_5.html "悬停显示")
+* [剑指Offer（二十）：包含min函数的栈](http://cuijiahua.com/blog/2017/12/basis_20.html "悬停显示")
+* [剑指Offer（二十一）：栈的压入、弹出序列](http://cuijiahua.com/blog/2017/12/basis_21.html "悬停显示")
+
+|                  Title                   |                  Python                  |                   C++                    |                   Blog                   |
+| :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
+|      用两个栈实现队列                     | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Stack_1.md) | |
 
 ### 时间空间效率的平衡 (4道)：
 
