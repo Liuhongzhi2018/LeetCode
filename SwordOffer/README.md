@@ -77,6 +77,10 @@
 |      从尾到头打印链表                    | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/LinkedList_1.md) | |
 |      链表中环的入口结点                    | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/LinkedList_2.md) | |
 |      删除链表中重复的结点                    | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/LinkedList_3.md) | |
+|      链表中倒数第k个结点                    | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/LinkedList_4.md) | |
+|      反转链表                    | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/LinkedList_5.md) | |
+|      合并两个排序的链表                    | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/LinkedList_6.md) | |
+|      复杂链表的复制                    | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/LinkedList_7.md) | |
 
 
 ### 递归和循环（Recursion and loop）(4道)：
@@ -103,6 +107,7 @@
 | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
 |      用两个栈实现队列                     | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Stack_1.md) | |
 |      包含min函数的栈                     | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Stack_2.md) | |
+|      栈的压入、弹出序列                     | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Stack_3.md) | |
 
 ### 时间空间效率的平衡 (4道)：
 
