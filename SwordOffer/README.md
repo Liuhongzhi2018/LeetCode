@@ -71,6 +71,7 @@
 * [剑指Offer（三十六）：两个链表的第一个公共结点](http://cuijiahua.com/blog/2018/01/basis_36.html "悬停显示")
 * [剑指Offer（五十五）：链表中环的入口结点](http://cuijiahua.com/blog/2018/01/basis_55.html "悬停显示")
 * [剑指Offer（五十六）：删除链表中重复的结点](http://cuijiahua.com/blog/2018/01/basis_56.html "悬停显示")
+* [剑指Offer（四十六）：孩子们的游戏（圆圈中最后剩下的数）](http://cuijiahua.com/blog/2018/01/basis_46.html "悬停显示")
 
 |                  Title                   |                  Python                  |                   C++                    |                   Blog                   |
 | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
@@ -81,6 +82,8 @@
 |      反转链表                    | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/LinkedList_5.md) | |
 |      合并两个排序的链表                    | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/LinkedList_6.md) | |
 |      复杂链表的复制                    | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/LinkedList_7.md) | |
+|      两个链表的第一个公共结点                    | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/LinkedList_8.md) | |
+|      孩子们的游戏                    | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/LinkedList_9.md) | |
 
 
 ### 递归和循环（Recursion and loop）(4道)：
