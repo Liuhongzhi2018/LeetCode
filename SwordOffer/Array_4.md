@@ -50,7 +50,33 @@ class Solution:
 占用内存：5840k
 
 
+3. 二分查找法
+```python
+# -*- coding:utf-8 -*-
+class Solution:
+    def minNumberInRotateArray(self, rotateArray):
+        # write code here
+        if not rotateArray:
+            return 0
+        left = 0
+        right = len(rotateArray) - 1
+        while left <= right:
+            mid = (left + right) // 2
+            if rotateArray[mid] < rotateArray[mid-1]:
+                return rotateArray[mid]
+            elif rotateArray[mid] < rotateArray[right]:
+                right = mid - 1
+            else:
+                left = mid + 1
+        return 0
+```
+运行时间：679ms 
+
+占用内存：5728k
+
 
 ## 思路总结
 
-比较算法，从数组中找到最小值。
+1. 逐次比较，从数组中找到最小值。
+
+2. 二分查找，最小值前会出现断崖下降，即顺序上后面值小于前面值。先找到中间值，和前面值比较，如果小则满足，否则调整范围继续查找。

@@ -102,6 +102,7 @@
 |                  Title                   |                  Python                  |                   C++                    |                   Blog                   |
 | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
 |      用两个栈实现队列                     | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Stack_1.md) | |
+|      包含min函数的栈                     | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Stack_2.md) | |
 
 ### 时间空间效率的平衡 (4道)：
 
