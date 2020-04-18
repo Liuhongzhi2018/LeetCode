@@ -39,6 +39,8 @@
 |     数组中重复的数字                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_2.md) | |
 |     构建乘积数组                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_3.md) | |
 |      旋转数组的最小数字                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_4.md) | |
+|      调整数组顺序使奇数位于偶数前面                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_5.md) | |
+|      数组中出现次数超过一半的数字                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_6.md) | |
 
 ### 字符串 (String) (8道):
 
@@ -120,10 +122,14 @@
 | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
 |      丑数                     | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/B_1.md) | |
 
-### 其他
+### 位运算
 
-* [剑指Offer（十一）：二进制中1的个数](http://cuijiahua.com/blog/2017/11/basis_11.html "悬停显示")
+* [剑指Offer（十一）：二进制中1的个数](http://cuijiahua.com/blog/2017/11/basis_11.html "悬停显示")  
+* [剑指Offer（四十八）：不用加减乘除的加法](http://cuijiahua.com/blog/2018/01/basis_48.html "悬停显示")
+* [剑指Offer（三十一）：整数中1出现的次数（从1到n整数中1出现的次数）](http://cuijiahua.com/blog/2017/12/basis_31.html "悬停显示")
 
 |                  Title                   |                  Python                  |                   C++                    |                   Blog                   |
 | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
 |     二进制中1的个数       | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Bit_1.md) | |
+|     不用加减乘除的加法       | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Add_1.md) | |
+|     整数中1出现的次数       | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Find_1.md) | |
