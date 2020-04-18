@@ -13,14 +13,49 @@
 
 ## 代码实现
 
-1. 快慢指针
+1. 公式法
 ```python
-
+# -*- coding:utf-8 -*-
+class Solution:
+    def LastRemaining_Solution(self, n, m):
+        # write code here
+        if n < 1 or m < 1:
+            return -1
+        if n == 1:
+            return 0
+        value = 0
+        for index in range(2,n+1):
+            cur = (value + m) % index
+            value = cur
+        return value
 ```
+运行时间：35ms
+
+占用内存：5856k
 
 
+2. 公式法
+```python
+# -*- coding:utf-8 -*-
+class Solution:
+    def LastRemaining_Solution(self, n, m):
+        # write code here
+        if n < 1 or m < 1:
+            return -1
+        value = 0
+        for index in range(2,n+1):
+            value = (value + m) % index
+        return value
+```
+运行时间：25ms
 
+占用内存：5760k
 
 
 ## 思路总结
 
+其中m为指定数，n为总的小朋友数  
+通过递推公式可得 f(n) = (f(n-1) + m) % n  
+f(1) = 0
+
+[约瑟夫环](https://blog.csdn.net/u011500062/article/details/72855826)
