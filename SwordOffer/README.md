@@ -41,6 +41,7 @@
 |      旋转数组的最小数字                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_4.md) | |
 |      调整数组顺序使奇数位于偶数前面                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_5.md) | |
 |      数组中出现次数超过一半的数字                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_6.md) | |
+|      数组中只出现一次的数字                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_7.md) | |
 
 ### 字符串 (String) (8道):
 
@@ -120,7 +121,7 @@
 
 |                  Title                   |                  Python                  |                   C++                    |                   Blog                   |
 | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
-|      丑数                     | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/B_1.md) | |
+|      丑数                     | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Ugly.md) | |
 
 ### 位运算
 
