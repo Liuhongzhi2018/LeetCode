@@ -42,6 +42,7 @@
 |      调整数组顺序使奇数位于偶数前面                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_5.md) | |
 |      数组中出现次数超过一半的数字                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_6.md) | |
 |      数组中只出现一次的数字                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_7.md) | |
+|      最小的K个数                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_8.md) | |
 
 ### 字符串 (String) (8道):
 
@@ -161,3 +162,11 @@
 |     从上往下打印二叉树       | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Tree_4.md) | |
 |     二叉搜索树的后序遍历序列       | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Tree_5.md) | |
 |     二叉树中和为某一值的路径       | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Tree_6.md) | |
+|     二叉搜索树与双向链表       | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Tree_7.md) | |
+|      数据流中的中位数                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Tree_8.md) | |
+|      二叉树的下一个结点                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Tree_9.md) | |
+|      对称的二叉树                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Tree_10.md) | |
+|      按之字顺序打印二叉树                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Tree_11.md) | |
+|      把二叉树打印成多行                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Tree_12.md) | |
+|      二叉搜索树的第k个结点                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Tree_13.md) | |
+|      序列化二叉树                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Tree_14.md) | |
