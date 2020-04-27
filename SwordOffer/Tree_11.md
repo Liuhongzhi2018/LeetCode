@@ -16,30 +16,46 @@
 #         self.left = None
 #         self.right = None
 class Solution:
-    def isSymmetrical(self, pRoot):
+    def Print(self, pRoot):
         # write code here
-        if pRoot == None: 
-                return True 
-            
-        def isMirror(left,right):
-            if left == None and right == None: 
-                return True 
-            if left == None or right == None: 
-                return False 
-            if left.val != right.val: 
-                return False 
+        if pRoot == None:
+            return []
+        stack1 = [pRoot]
+        stack2 = []
+        ret = []
+        while stack1 or stack2:
+            if stack1:
+                tmpRet = []
+                while stack1:
+                    tmpNode = stack1.pop()
+                    tmpRet.append(tmpNode.val)
+                    if tmpNode.left:
+                        stack2.append(tmpNode.left)
+                    if tmpNode.right:
+                        stack2.append(tmpNode.right)
+                ret.append(tmpRet)
 
-            ret1 = isMirror(left.left,right.right) 
-            ret2 = isMirror(left.right,right.left) 
-            return ret1 and ret2 
-        return isMirror(pRoot.left,pRoot.right)
+            if stack2:
+                tmpRet = []
+                while stack2:
+                    tmpNode = stack2.pop()
+                    tmpRet.append(tmpNode.val)
+                    if tmpNode.right:
+                        stack1.append(tmpNode.right)
+                    if tmpNode.left:
+                        stack1.append(tmpNode.left)
+                ret.append(tmpRet)
+        return ret
 ```
-运行时间：21ms
 
-占用内存：5728k
+运行时间：28ms
+
+占用内存：5972k
+
 
 
 
 ## 思路总结
 
-一个二叉树和二叉树的镜像相同，左子树等于右子树，左子树根结点的左结点等于右子树根结点的右结点。
+首先，定义2个栈，并且添加初始值pRoot；  
+第一行结点加入stack1，第二行结点加入stack2，第三行结点加入stack1。   

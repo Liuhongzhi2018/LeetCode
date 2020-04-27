@@ -43,6 +43,7 @@
 |      数组中出现次数超过一半的数字                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_6.md) | |
 |      数组中只出现一次的数字                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_7.md) | |
 |      最小的K个数                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_8.md) | |
+|      连续子数组的最大和                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_9.md) | |
 
 ### 字符串 (String) (8道):
 
@@ -102,6 +103,8 @@
 |      斐波那契数列                     | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Loop_1.md) | |
 |      跳台阶                    | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Loop_2.md) | |
 |      变态跳台阶                    | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Loop_3.md) | |
+|      矩形覆盖                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Loop_4.md) | |
+
 
 
 ### 栈和队列（Stack）(3道)：
