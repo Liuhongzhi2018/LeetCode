@@ -44,6 +44,12 @@
 |      数组中只出现一次的数字                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_7.md) | |
 |      最小的K个数                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_8.md) | |
 |      连续子数组的最大和                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_9.md) | |
+|      顺时针打印矩阵                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_10.md) | |
+|      字符串的排列                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_11.md) | |
+|      把数组排成最小的数                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_12.md) | |
+|      数组中的逆序对                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_13.md) | |
+|      数字在排序数组中出现的次数                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_14.md) | |
+
 
 ### 字符串 (String) (8道):
 
@@ -64,6 +70,10 @@
 |     正则表达式匹配                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/String_2.md) | |
 |     表示数值的字符串                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/String_3.md) | |
 |     字符流中第一个不重复的字符                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/String_4.md) | |
+|     第一个只出现一次的字符                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/String_5.md) | |
+|     左旋转字符串                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/String_6.md) | |
+|     翻转单词顺序序列                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/String_7.md) | |
+|     扑克牌顺子                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/String_8.md) | |
 
 ### 链表 (LinkedList) (8道)
 
@@ -173,3 +183,18 @@
 |      把二叉树打印成多行                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Tree_12.md) | |
 |      二叉搜索树的第k个结点                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Tree_13.md) | |
 |      序列化二叉树                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Tree_14.md) | |
+|      二叉树的深度                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Tree_15.md) | |
+|      平衡二叉树                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Tree_16.md) | |
+
+
+### 其他(15道)：
+
+* [剑指Offer（十二）：数值的整数次方](http://cuijiahua.com/blog/2017/11/basis_12.html "悬停显示")
+* [剑指Offer（四十一）：和为S的连续正数序列](http://cuijiahua.com/blog/2018/01/basis_41.html "悬停显示")
+* [剑指Offer（四十二）：和为S的两个数字](http://cuijiahua.com/blog/2018/01/basis_42.html "悬停显示")
+
+|                 Title                   |                  Python                  |                   C++                    |                   Blog                   |
+| :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
+|     数值的整数次方       | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Pow.md) | |
+|     和为S的连续正数序列       | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/SumS.md) | |
+|     和为S的两个数字       | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/TwoSumS.md) | |
