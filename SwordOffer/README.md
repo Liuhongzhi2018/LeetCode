@@ -49,6 +49,7 @@
 |      把数组排成最小的数                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_12.md) | |
 |      数组中的逆序对                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_13.md) | |
 |      数字在排序数组中出现的次数                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_14.md) | |
+|      滑动窗口的最大值                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Array_15.md) | |
 
 
 ### 字符串 (String) (8道):
@@ -74,6 +75,7 @@
 |     左旋转字符串                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/String_6.md) | |
 |     翻转单词顺序序列                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/String_7.md) | |
 |     扑克牌顺子                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/String_8.md) | |
+|     把字符串转换成整数                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/String_9.md) | |
 
 ### 链表 (LinkedList) (8道)
 
@@ -192,9 +194,16 @@
 * [剑指Offer（十二）：数值的整数次方](http://cuijiahua.com/blog/2017/11/basis_12.html "悬停显示")
 * [剑指Offer（四十一）：和为S的连续正数序列](http://cuijiahua.com/blog/2018/01/basis_41.html "悬停显示")
 * [剑指Offer（四十二）：和为S的两个数字](http://cuijiahua.com/blog/2018/01/basis_42.html "悬停显示")
+* [剑指Offer（四十七）：求1+2+3+…+n](http://cuijiahua.com/blog/2018/01/basis_47.html "悬停显示")
+* [剑指Offer（六十五）：矩阵中的路径](http://cuijiahua.com/blog/2018/02/basis_65.html "悬停显示")
+* [剑指Offer（六十六）：机器人的运动范围](http://cuijiahua.com/blog/2018/02/basis_66.html "悬停显示")
 
 |                 Title                   |                  Python                  |                   C++                    |                   Blog                   |
 | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
 |     数值的整数次方       | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Pow.md) | |
 |     和为S的连续正数序列       | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/SumS.md) | |
 |     和为S的两个数字       | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/TwoSumS.md) | |
+|     求1+2+3+…+n       | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/1nSum.md) | |
+|     矩阵中的路径       | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Route.md) | |
+|     机器人的运动范围       | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Robot.md) | |
+|     剪绳子       | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/SwordOffer/Cut.md) | |
