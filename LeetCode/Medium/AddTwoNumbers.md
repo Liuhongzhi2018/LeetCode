@@ -10,6 +10,7 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 你可以假设除了数字 0 之外，这两个数字都不会以零开头。
 
 ## 代码实现
+1. 
 ``` C
 /**
 * Definition for singly-linked list.
@@ -41,9 +42,57 @@ struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2) {
 }
 ```
 
+2. 
+```python
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+class Solution:
+    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
+        if l1 == None:
+            return l2
+        if l2 == None:
+            return l1
+        carry = 0
+        dummy = ListNode(0)
+        p = dummy
+
+        while l1 and l2:
+            p.next = ListNode((l1.val + l2.val + carry)%10)
+            carry = (l1.val + l2.val + carry) // 10
+            l1 = l1.next
+            l2 = l2.next
+            p = p.next
+
+        if l2:
+            while l2:
+                p.next = ListNode((l2.val + carry)%10)
+                carry = (l2.val + carry) // 10
+                l2 = l2.next
+                p = p.next
+            
+        if l1:
+            while l1:
+                p.next = ListNode((l1.val + carry)%10)
+                carry = (l1.val + carry) // 10
+                l1 = l1.next
+                p = p.next
+
+        if carry == 1:
+            p.next = ListNode(1)
+
+        return dummy.next
+```
+
 ## 总结体会
 
 本题要求给定的两个逆序非空链表，相加后返回新的链表，实际上是用链表完成多位数加法运算操作，头结点是个位，最后一个结点为最高位，各位依次相加形成新链表。
 
 在算法设计上，我首先声明两个指针和一个进位变量C；其次按照加法运算法则，遍历链表将两个链表对应元素相加，进位赋值给变量C；最后依次完成运算，将新链表头指针q返回，即为所求加和后的链表。
 
+首先init一个node，定义一个进位carry，初始为0，dummy位是链表头指针位置；  
+其次如果链表不等长时，继续对长的链表进行循环；  
+最后返回头指针指向的结点。
