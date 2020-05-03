@@ -14,6 +14,7 @@
 | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
 |     1.两数之和                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/Twosum.md) | |
 |     3. 无重复字符的最长子串                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/LongestSubstringWithoutRepeatingCharacters.md) | |
+|     7. 整数反转                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ReverseInteger.md) | |
 
 
 
@@ -23,6 +24,8 @@
 |                  Title                   |                  Python                  |                   C++                    |                   Blog                   |
 | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
 |     2. 两数相加                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/AddTwoNumbers.md) | |
+|     5. 最长回文子串                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/LongestPalindromicSubstring.md) | |
+|     6. Z 字形变换                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/ZigZagConversion.md) | |
 
 
 ### 困难

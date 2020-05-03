@@ -6,6 +6,7 @@ The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of 
 将字符串 "PAYPALISHIRING" 以Z字形排列成给定的行数，之后从左往右，逐行读取字符，"PAHNAPLSIIGYIR"实现一个将字符串进行指定行数变换的函数。
 
 ## 代码实现
+1.
 ``` C
 char* convert(char* s, int numRows) {
     int i,j,k=0;
@@ -39,11 +40,23 @@ char* convert(char* s, int numRows) {
 }
 ```
 
+2.
+```python
+class Solution:
+    def convert(self, s: str, numRows: int) -> str:
+        cache = [i for i in range(numRows)] + [i for i in range(1, numRows-1)][::-1]
+        res = [""] * numRows
+        for i, c in enumerate(s):
+            res[cache[i%len(cache)]] += c
+        return "".join(res)
+```
+
+
 ## 总结体会
 
 本题要求将所给字符串进行Z字形排列，需要注意的是Z的书写方式是竖向而不是横向，因此需要先将字符串从上到下排列再横向返回字符串。
 
 在算法设计上，首先变量l保存间隔，numRows只有一行时两个数的间隔是1；其次第0行和第numRows-1行两个数的时间间隔是(m-1)\*2，中间行两个数的间隔是(m-1)\*2-i\*2和i\*2交替；最后用str字符串横向读取排列后的字符串，返回str即为所求。
 
-
-
+首先1->4行->1行，将字符串的下标排列为0123-45-6789-1011-12131415；  
+再将下标替换为行标，发现0-1-2-3->2-1->0-1-2-3->2-1->0-1-2-3，0-->numRows-1-->1，这是一个循环的标注。

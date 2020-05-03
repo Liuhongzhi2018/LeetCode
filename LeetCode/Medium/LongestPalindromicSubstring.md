@@ -6,6 +6,8 @@ Given a string s, find the longest palindromic substring in s. You may assume th
 给定一个字符串 s，找到 s 中最长的回文子串。你可以假设 s 的最大长度为1000。
 
 ## 代码实现
+
+1.
 ``` C
 int getlen(char *s, int a, int b, int len);
 char* longestPalindrome(char* s);
@@ -59,9 +61,29 @@ char* longestPalindrome(char* s)
 }
 ```
 
+2.
+```python
+class Solution:
+    def longestPalindrome(self, s: str) -> str:
+        res = ''
+        for i in range(len(s)):
+            start = max(0, i-len(res)-1)
+            temp = s[start : i+1]
+            if temp == temp[::-1]:
+                res = temp
+            else:
+                temp = temp[1:]
+                if temp == temp[::-1]:
+                    res = temp
+        return res
+```
+
 ## 总结体会
 
 本题要求从字符串s中找到最长回文子串，即掌握回文字符的判断方法，返回字符串。
 
 在算法设计上，主要考虑回文的特性是由中间的字母往两边扩散是对应相等的，由此检索所有的回文长度，记录最长的长度和起始位置，字符串检测结束后，再分配相应空间复制，返回字符串指针即为所求字符串。
 
+回文字符串str==str[::-1]  
+回文字符串性质，如果是回文字符串，那么去头去尾字符串str[1:-1]也为回文字符串。  
+截取start到i的字符串，str[start:i+1]
