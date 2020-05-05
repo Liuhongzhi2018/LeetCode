@@ -1,6 +1,7 @@
 #  String to Integer (atoi)
 
 ## 问题分析
+
 Implement atoi which converts a string to an integer.
 
 The function first discards as many whitespace characters as necessary until the first non-whitespace character is found. Then, starting from this character, takes an optional initial plus or minus sign followed by as many numerical digits as possible, and interprets them as a numerical value.
@@ -22,6 +23,8 @@ If no valid conversion could be performed, a zero value is returned.
 若函数不能执行有效的转换，返回 0。
 
 ## 代码实现
+
+1.
 ``` C
 int myAtoi(char* str) {
     int sign=1,num=0,dec;
@@ -43,9 +46,31 @@ int myAtoi(char* str) {
 }
 ```
 
+2.
+```python
+class Solution:
+    def myAtoi(self, str: str) -> int:
+        newstr = str.lstrip()
+        if len(newstr) == 0 or (newstr[0].isdigit()==False and newstr[0] not in ["+","-"]):
+            return 0
+        res, i = newstr[0], 1
+        while i < len(newstr) and newstr[i].isdigit():
+            res += newstr[i]
+            i += 1
+        try:
+            res = int(res)
+            return min(max(res,-2**31),2**31-1)
+        except:
+            return 0
+```
+
 ## 总结体会
 
 本题要求将字符串转换为整数，即取出有效字符组成十进制整数。
 
 在算法设计上，首先找到第一个有效正或者负符号位，保存在sign变量中；其次取出数字位组成整数，并且判断是否满足边界条件；最后将符号和无符号位相乘得到整数返回。
 
+方法二：  
+lstrip()去掉字符串前面的0；  
+如果第一个位不是加号或者减号则返回0；
+遍历将数字字符放在res中，用try对res做一个转换，如果发生错误则返回0。

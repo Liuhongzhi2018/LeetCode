@@ -12,6 +12,7 @@ Determine whether an integer is a palindrome.　Do this without extra space.
 本题有一种比较通用的解决方式。
 
 ## 代码实现
+1.
 ``` C
 bool isPalindrome(int x) {
 	int num = x;
@@ -34,5 +35,26 @@ bool isPalindrome(int x) {
 }
 ```
 
+2. 反转字符串法
+```python
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        return x>=0 and int(str(x)[::-1]) == x
+```
+
+3.不需要转换字符串
+```python
+class Solution:
+    def isPalindrome(self, x: int) -> bool:
+        if x < 0:
+            return False
+        res, tmp = 0, x
+        while tmp:
+            res = res * 10 + tmp % 10
+            tmp //= 10
+        return res == x
+```
+
 ## 总结体会
+
 回文数要求正反读一样，转换为判断一个首尾数字相同，逐渐向中间逼近的思想。
