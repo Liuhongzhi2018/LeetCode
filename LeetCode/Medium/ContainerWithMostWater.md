@@ -11,6 +11,7 @@ Note: You may not slant the container and n is at least 2.
 
 
 ## 代码实现
+1.
 ``` C
 int maxArea(int* height, int heightSize) {
     int i=0;
@@ -31,11 +32,29 @@ int maxArea(int* height, int heightSize) {
 }
 ```
 
+2.两指针法，移动较短
+```
+class Solution:
+    def maxArea(self, height: List[int]) -> int:
+        res, l, r = 0, 0, len(height)-1
+        while True:
+            if l>r:
+                break
+            res = max(res, min(height[l],height[r])*(r-l))
+            if height[l] < height[r]:
+                l += 1
+            else:
+                r -= 1
+        return res
+```
+
 ## 总结体会
 
 本题要求能盛水的最大容器，可以转换为计算矩形的面积，长度为横坐标间距，宽度取决于最小边，找出符合条件两点，返回最大面积。
 
 在算法设计上，首先将组成矩形的左右两点坐标定义为i和j，起始位置分别对应最左和最右点；其次采用while循环，确定最短边长，使i和j依次向中间递进，并计算矩形面积；最后比较得到最大的面积返回。
 
-
+方法二：  
+首先初始化res，是需要返回的最大面积；l和r是两个指针向中间靠拢；  
+面积等于高与x轴相乘的结果。
 

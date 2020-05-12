@@ -6,6 +6,8 @@ Write a function to find the longest common prefix string amongst an array of st
 编写一个函数来查找字符串数组中最长的公共前缀字符串。
 
 ## 代码实现
+
+1.
 ``` C
 char* longestCommonPrefix(char** strs, int strsSize) {
 	int n = strsSize;
@@ -32,7 +34,23 @@ char* longestCommonPrefix(char** strs, int strsSize) {
 }
 ```
 
+2.
+```python
+class Solution:
+    def longestCommonPrefix(self, strs: List[str]) -> str:
+        if not strs:
+            return ""
+        res = min(strs, key=len)
+        for s in strs:
+            for j in range(len(res)):
+                if s[j] != res[j]:
+                    res = res[:j]
+                    break
+        return res
+```
+
 ## 总结体会
+
 本题虽定级为Easy，但是做起来相当有难度。
 
 首先需要理解题目所给函数中strsSize含义，指的是字符串数组中进行比较的是几组字符串，用于确定比较范围；
@@ -43,3 +61,6 @@ char* longestCommonPrefix(char** strs, int strsSize) {
 再次，选用较为简单的逐项比较法，即在0-strsSize之间的字符串，从第一位开始比较，直至有不同的位停止，之间的字符串即为共同前缀字符串；
 
 最后将字符串return返回输出。
+
+方法二：  
+首先将字符串中最短的作为预先判断；对列表中每一个元素s，用res寻找最小公共前缀。

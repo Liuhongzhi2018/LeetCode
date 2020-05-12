@@ -11,6 +11,7 @@ Roman numerals are usually written largest to smallest from left to right. Howev
 
 
 ## 代码实现
+1.
 ``` C
 int Position(char* roman,int num,char pre,char mid,char lat){
     switch(num){
@@ -47,6 +48,62 @@ char* intToRoman(int num) {
     roman[cnt]='\0';
     return roman;
 }
+```
+
+2.字典法
+```python
+class Solution:
+    def intToRoman(self, num: int) -> str:
+        Rdict = {
+            1000:"M",
+            900:"CM",
+            500:"D",
+            400:"CD",
+            100:"C",
+            90:"XC",
+            50:"L",
+            40:"XL",
+            10:"X",
+            9:"IX",
+            5:"V",
+            4:"IV",
+            1:"I"
+        }
+        res = ""
+        for i in Rdict:
+            count = num // i
+            if count:
+                res += count*Rdict[i]
+                num %= i
+        return res
+```
+
+3.
+```python
+class Solution:
+    def intToRoman(self, num: int) -> str:
+        ref = {
+            "M":1000,
+            "CM":900,
+            "D":500,
+            "CD":400,
+            "C":100,
+            "XC":90,
+            "L":50,
+            "XL":40,
+            "X":10,
+            "IX":9,
+            "V":5,
+            "IV":4,
+            "I":1
+        }
+        sorted_ref = sorted(ref.keys(),key=ref.get, reverse=True)
+        res = ""
+        for i in sorted_ref:
+            while num >= ref[i]:
+                res += i
+                num -= ref[i]
+        return res
 ```
 
 ## 总结体会

@@ -1,4 +1,3 @@
-
 # Roman to Integer
 
 ## 问题描述
@@ -9,6 +8,7 @@ Input is guaranteed to be within the range from 1 to 3999.
 给定一个罗马数字，将其转换成整数。返回的结果要求在 1 到 3999 的范围内。
 
 ## 代码实现
+1.
 ``` C
 int romanToInt(char* s) {
 	int n = 0;
@@ -34,6 +34,32 @@ int romanToInt(char* s) {
 	}
 	return value;
 }
+```
+
+2.
+```python
+class Solution:
+    def romanToInt(self, s: str) -> int:
+        ref = {
+            "I":1,
+            "V":5,
+            "X":10,
+            "L":50,
+            "C":100,
+            "D":500,
+            "M":1000
+        }
+        if not s:
+            return 0
+        res = ref[s[0]]
+        for i in range(1, len(s)):
+            prev = s[i-1]
+            cur = s[i]
+            if prev and ref[prev] < ref[cur]:
+                res += (ref[cur] - 2 * ref[prev])
+            else:
+                res += ref[cur]
+        return res
 ```
 ## 总结体会
 此编程题，我首先了解了罗马数字的组成方式，不仅是常用的I、V、X而且还有其他的字母表示，以及代表数值；

@@ -10,6 +10,7 @@ Note: The solution set must not contain duplicate triplets.
 注意：答案中不可以包含重复的三元组。
 
 ## 代码实现
+1.
 ``` C
 /**
  * Return an array of arrays of size *returnSize.
@@ -57,6 +58,53 @@ int cmp(const void *a,const void *b){
 }
 
 ```
+2.
+```python
+class Solution:
+    def threeSum(self, nums: List[int]) -> List[List[int]]:
+        res = []
+        nums.sort()
+        for i in range(len(nums)):
+            if nums[i] > 0:
+                break
+            if i >= 1 and nums[i] == nums[i-1]:
+                continue
+            target = -nums[i]
+            cache = set()
+            for j in range(i+1, len(nums)):
+                if nums[j] in cache:
+                    if len(res) == 0 or res[-1]!=[nums[i],target-nums[j],nums[j]]:
+                        res.append([nums[i],target-nums[j],nums[j]])
+                cache.add(target-nums[j])
+        return res
+```
+
+3.
+```python
+class Solution:
+    def threeSum(self, nums: List[int]) -> List[List[int]]:
+        res = []
+        nums.sort()
+        for i in range(len(nums)):
+            if nums[i] > 0:
+                break
+            if i >= 1 and nums[i] == nums[i-1]:
+                continue
+            cur, l, r = nums[i], i+1, len(nums)-1
+            while l<r:
+                tsum = cur + nums[l] + nums[r]
+                if tsum>0:
+                    r -= 1
+                elif tsum<0:
+                    l += 1
+                else:
+                    if len(res)==0 or [cur, nums[l],nums[r]] != res[-1]:
+                        res.append([cur,nums[l],nums[r]])
+                    l += 1
+                    r -= 1
+        return res
+```
+
 
 ## 总结体会
 

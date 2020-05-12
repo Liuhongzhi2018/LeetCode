@@ -16,6 +16,8 @@
 |     3. 无重复字符的最长子串                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/LongestSubstringWithoutRepeatingCharacters.md) | |
 |     7. 整数反转                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ReverseInteger.md) | |
 |     9. 回文数                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/PalindromeNumber.md) | |
+|     13. 罗马数字转整数                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/RomantoInteger.md) | |
+|     14. 最长公共前缀                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/LongestCommonPrefix.md) | |
 
 
 
@@ -28,6 +30,9 @@
 |     5. 最长回文子串                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/LongestPalindromicSubstring.md) | |
 |     6. Z 字形变换                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/ZigZagConversion.md) | |
 |     8. 字符串转换整数 (atoi)               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/StringtoInteger.md) | |
+|     11. 盛最多水的容器               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/ContainerWithMostWater.md) | |
+|     12. 整数转罗马数字               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/IntegertoRoman.md) | |
+|     15. 三数之和               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/3Sum.md) | |
 
 
 ### 困难
