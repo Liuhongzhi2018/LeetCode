@@ -79,7 +79,7 @@ class Solution:
         return res
 ```
 
-3.
+3.双指针方法
 ```python
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
@@ -112,3 +112,6 @@ class Solution:
 
 在算法设计上，首先声明一个用于返回元素组合的二维数组，套用组合数公式得到大小；其次将数组进行排序,，直接调用qsort函数进行快排；若满足和为零的题目要求，就将该三数组元素依次保存在数组中，并检查若出现重复和释放内存空间；最后将得到的数组返回。
 
+如果暴力破解brute force方法，时间复杂度是O(n^3)。
+
+首先将乱序数组排序为顺序数组；然后取下标为i的数，在剩余元素中找到target元素，将3sun问题转变为2sum问题；两数和为target有两种方法，一种是用cache作为set，存储见过的值与target差值，如果遍历到则找到，另一种方法是左右指针，如果大于零移动右指针，如果大于零移动左指针。
