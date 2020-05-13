@@ -3,7 +3,7 @@
 ## 学习资料
 
 [五分钟力扣 Leetcode](https://www.bilibili.com/video/BV1vE411A7Mj?from=search&seid=10797634719372911097)
-
+Python可视化编程： http://pythontutor.com/live.html#mode=edit
 
 ## 题目清单
 
@@ -35,6 +35,8 @@
 |     15. 三数之和               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/3Sum.md) | |
 |     16. 最接近的三数之和               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/3SumClosest.md) | |
 |     17.电话号码的字母组合                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/LetterCombinationsofaPhoneNumber.md) | |
+|     18.电话号码的字母组合                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/4Sum.md) | |
+|     19. 删除链表的倒数第N个节点                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/RemoveNthNodeFromEndofList.md) | |
 
 
 
