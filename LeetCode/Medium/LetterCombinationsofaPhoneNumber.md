@@ -10,6 +10,7 @@ A mapping of digit to letters (just like on the telephone buttons) is given belo
 给出数字到字母的映射如下（与电话按键相同）。注意 1 不对应任何字母。
 
 ## 代码实现
+1.
 ``` C++
 class Solution {
 public:
@@ -33,6 +34,23 @@ public:
         }
     }
 };
+```
+
+2.
+```python
+class Solution:
+    def letterCombinations(self, digits: str) -> List[str]:
+        num2c = {
+            "2":"abc","3":"def","4":"ghi",
+            "5":"jkl","6":"mno","7":"pqrs",
+            "8":"tuv","9":"wxyz",
+        }
+        if len(digits)==0 or '1' in digits:
+            return []
+        res = ['']
+        for i in digits:
+            res = [k+j for k in res for j in num2c[i]]
+        return res
 ```
 
 ## 总结体会
