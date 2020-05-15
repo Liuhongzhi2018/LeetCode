@@ -18,7 +18,7 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     9. 回文数                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/PalindromeNumber.md) | |
 |     13. 罗马数字转整数                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/RomantoInteger.md) | |
 |     14. 最长公共前缀                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/LongestCommonPrefix.md) | |
-
+|     20. 有效的括号                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ValidParentheses.md) | |
 
 
 
