@@ -2,8 +2,8 @@
 
 ## 学习资料
 
-[五分钟力扣 Leetcode](https://www.bilibili.com/video/BV1vE411A7Mj?from=search&seid=10797634719372911097)
-Python可视化编程： http://pythontutor.com/live.html#mode=edit
+[五分钟力扣 Leetcode](https://www.bilibili.com/video/BV1vE411A7Mj?from=search&seid=10797634719372911097)  
+Python可视化编程： http://pythontutor.com/live.html#mode=edit  
 五分钟力扣 Leetcode: https://www.bilibili.com/video/BV1vE411A7Mj?from=search&seid=14475795548188315467
 
 ## 题目清单
