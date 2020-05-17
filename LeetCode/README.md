@@ -4,6 +4,7 @@
 
 [五分钟力扣 Leetcode](https://www.bilibili.com/video/BV1vE411A7Mj?from=search&seid=10797634719372911097)
 Python可视化编程： http://pythontutor.com/live.html#mode=edit
+五分钟力扣 Leetcode: https://www.bilibili.com/video/BV1vE411A7Mj?from=search&seid=14475795548188315467
 
 ## 题目清单
 
@@ -19,6 +20,7 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     13. 罗马数字转整数                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/RomantoInteger.md) | |
 |     14. 最长公共前缀                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/LongestCommonPrefix.md) | |
 |     20. 有效的括号                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ValidParentheses.md) | |
+|     21. 合并两个有序链表                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/MergeTwoSortedLists.md) | |
 
 
 
@@ -37,6 +39,8 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     17.电话号码的字母组合                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/LetterCombinationsofaPhoneNumber.md) | |
 |     18.电话号码的字母组合                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/4Sum.md) | |
 |     19. 删除链表的倒数第N个节点                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/RemoveNthNodeFromEndofList.md) | |
+|     22. 括号生成                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/GenerateParentheses.md) | |
+|     24. 两两交换链表中的节点                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/SwapNodesinPairs.md) | |
 
 
 
@@ -47,3 +51,4 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
 |     4. 寻找两个有序数组的中位数                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/MedianofTwoSortedArrays.md) | |
 |     10. 正则表达式匹配                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/RegularExpressionMatching.md) | |
+|     23. 合并K个排序链表                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/MergekSortedLists.md) | |
