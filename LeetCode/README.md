@@ -21,6 +21,9 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     14. 最长公共前缀                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/LongestCommonPrefix.md) | |
 |     20. 有效的括号                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ValidParentheses.md) | |
 |     21. 合并两个有序链表                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/MergeTwoSortedLists.md) | |
+|     26. 删除排序数组中的重复项                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/RemoveDuplicatesfromSortedArray.md) | |
+|     27. 移除元素                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/RemoveElement.md) | |
+|     28. 实现 strStr()                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ImplementStrStr().md) | |
 
 
 
@@ -41,6 +44,7 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     19. 删除链表的倒数第N个节点                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/RemoveNthNodeFromEndofList.md) | |
 |     22. 括号生成                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/GenerateParentheses.md) | |
 |     24. 两两交换链表中的节点                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/SwapNodesinPairs.md) | |
+|     29. 两数相除               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/DivideTwoIntegers.md) | |
 
 
 
@@ -52,3 +56,5 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     4. 寻找两个有序数组的中位数                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/MedianofTwoSortedArrays.md) | |
 |     10. 正则表达式匹配                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/RegularExpressionMatching.md) | |
 |     23. 合并K个排序链表                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/MergekSortedLists.md) | |
+|     25. K 个一组翻转链表                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/ReverseNodesink-Group.md) | |
+|     30. 串联所有单词的子串                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/SubstringwithConcatenationofAllWords.md) | |

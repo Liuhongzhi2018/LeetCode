@@ -1,6 +1,7 @@
 # Remove Duplicates from Sorted Array
 
 ## 问题分析
+
 Given a sorted array nums, 　remove the duplicates in-place such that each element appear only once and return the new length.
 
 Do not allocate extra space for another array, 　you must do this by modifying the input array in-place with O(1) extra memory.
@@ -10,6 +11,7 @@ Do not allocate extra space for another array, 　you must do this by modifying 
 不要使用额外的数组空间，你必须在原地修改输入数组并在使用 O(1) 额外空间的条件下完成。
 
 ## 代码实现
+1.
 ``` C
 int removeDuplicates(int* nums, int numsSize)
 {
@@ -33,7 +35,24 @@ int removeDuplicates(int* nums, int numsSize)
 }
 ```
 
+2.
+```python
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        if not nums:
+            return 0
+        res = 0
+        for num in nums:
+            if nums[res] != num:
+                res += 1
+                nums[res] = num
+        return res+1
+```
+
 ## 总结体会
+
 本题考察对数组元素的操作和删除，我认为主要难点在于in-place和O(1)的要求，即要求数组的多余元素一次删除完成。
 
 采用的方法是使用两个变量，一个指向当前元素，一个向后寻找，遇到重复的元素则跳过，使数组依次存储不同的元素，实现题目要求。
+
+思路是用下标保存不重复的元素，然后返回下标+1即可。
