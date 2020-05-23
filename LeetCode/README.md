@@ -45,6 +45,7 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     22. 括号生成                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/GenerateParentheses.md) | |
 |     24. 两两交换链表中的节点                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/SwapNodesinPairs.md) | |
 |     29. 两数相除               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/DivideTwoIntegers.md) | |
+|     31. 下一个排列               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/NextPermutation.md) | |
 
 
 
@@ -58,3 +59,4 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     23. 合并K个排序链表                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/MergekSortedLists.md) | |
 |     25. K 个一组翻转链表                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/ReverseNodesink-Group.md) | |
 |     30. 串联所有单词的子串                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/SubstringwithConcatenationofAllWords.md) | |
+|     32. 最长有效括号                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/LongestValidParentheses.md) | |
