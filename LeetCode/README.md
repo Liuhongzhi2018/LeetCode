@@ -63,3 +63,4 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     25. K 个一组翻转链表                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/ReverseNodesink-Group.md) | |
 |     30. 串联所有单词的子串                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/SubstringwithConcatenationofAllWords.md) | |
 |     32. 最长有效括号                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/LongestValidParentheses.md) | |
+|     37. 解数独                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/SudokuSolver.md) | |
