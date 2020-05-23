@@ -24,6 +24,7 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     26. 删除排序数组中的重复项                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/RemoveDuplicatesfromSortedArray.md) | |
 |     27. 移除元素                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/RemoveElement.md) | |
 |     28. 实现 strStr()                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ImplementStrStr().md) | |
+|     35. 搜索插入位置                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/SearchInsertPosition.md) | |
 
 
 
@@ -46,7 +47,9 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     24. 两两交换链表中的节点                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/SwapNodesinPairs.md) | |
 |     29. 两数相除               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/DivideTwoIntegers.md) | |
 |     31. 下一个排列               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/NextPermutation.md) | |
-
+|     33. 搜索旋转排序数组               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/SearchinRotatedSortedArray.md) | |
+|     34. 在排序数组中查找元素的第一个和最后一个位置               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/FindFirstandLastPositionofElementinSortedArray.md) | |
+|     36. 有效的数独              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/ValidSudoku.md) | |
 
 
 
