@@ -1,6 +1,7 @@
 #  CombinationSumII
 
 ## 问题分析
+
 Given a collection of candidate numbers (candidates) and a target number (target), find all unique combinations in candidates where the candidate numbers sums to target.
 
 Each number in candidates may only be used once in the combination.
@@ -10,6 +11,8 @@ Each number in candidates may only be used once in the combination.
 candidates 中的每个数字在每个组合中只能使用一次。
 
 ## 代码实现
+
+1.
 ``` C++
 class Solution {
 public:
@@ -37,8 +40,30 @@ public:
 };
 ```
 
+2.
+```python
+class Solution:
+    def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
+        nums = sorted(candidates)
+        self.res = []
+        def recursive(idx,targ,cur):
+            for i in range(idx,len(candidates)):
+                ni = nums[i]
+                if ni<targ:
+                    if i==idx or ni!=nums[i-1]:
+                        recursive(i+1,(targ-ni),cur+[ni])
+                else:
+                    if ni==targ:
+                        self.res.append(cur+[ni])
+                    break
+        recursive(0,target,[])
+        return self.res
+```
+
 ## 总结体会
 
 本题与上一题的区别在于，给定数组candidates中含有重复数字，并且要求在组合中每个数字只能使用一次，
 
 在算法设计上，首先声明set容器存储各不相同的组合情况和vector容器返回每一种组合；其次对给定数组进行顺序重排，然后运用递归算法并调用函数求得每一种组合；最后将所有组合情况返回。
+
+在迭代时除了更新new target外，下标也要+1，因为不能使用重复元素。注意迭代时的条件设置。

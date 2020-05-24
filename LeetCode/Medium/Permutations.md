@@ -1,11 +1,13 @@
 #  Permutations
 
 ## 问题分析
+
 Given a collection of distinct integers, return all possible permutations.
 
 给定一个没有重复数字的序列，返回其所有可能的全排列。
 
 ## 代码实现
+1.
 ``` C++
 class Solution {
 public:
@@ -35,6 +37,23 @@ public:
         return ret;
     }
 };
+```
+
+2.递归法
+```python
+class Solution:
+    def permute(self, nums: List[int]) -> List[List[int]]:
+        if len(nums) <= 1:
+            return [nums]
+        self.res = []
+        def recursion(path, cand):
+            if len(cand) == 0:
+                self.res.append(path)
+            for i, n in enumerate(cand):
+                recursion(path+[n],cand[:i]+cand[i+1:])
+        recursion([],nums)
+        return self.res
+
 ```
 
 ## 总结体会

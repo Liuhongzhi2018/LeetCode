@@ -1,11 +1,14 @@
 #  Permutations II
 
 ## 问题分析
+
 Given a collection of numbers that might contain duplicates, return all possible unique permutations.
 
 给定一个可包含重复数字的序列，返回所有不重复的全排列。
 
 ## 代码实现
+
+1.
 ``` C++
 class Solution {
 public:
@@ -38,6 +41,24 @@ public:
         }
     }
 };
+```
+
+2.
+```python
+class Solution:
+    def permuteUnique(self, nums: List[int]) -> List[List[int]]:
+        if len(nums) == 0:
+            return [[]]
+        res = [[]]
+        for n in nums:
+            tmp = []
+            for r in res:
+                for i in range(len(r)+1):
+                    tmp.append(r[:i]+[n]+r[i:])
+                    if i < len(r) and r[i]==n:
+                        break
+            res = tmp
+        return res
 ```
 
 ## 总结体会

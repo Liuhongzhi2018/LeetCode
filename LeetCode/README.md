@@ -25,6 +25,7 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     27. 移除元素                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/RemoveElement.md) | |
 |     28. 实现 strStr()                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ImplementStrStr().md) | |
 |     35. 搜索插入位置                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/SearchInsertPosition.md) | |
+|     38. 外观数列                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/CountAndSay.md) | |
 
 
 
@@ -50,6 +51,14 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     33. 搜索旋转排序数组               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/SearchinRotatedSortedArray.md) | |
 |     34. 在排序数组中查找元素的第一个和最后一个位置               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/FindFirstandLastPositionofElementinSortedArray.md) | |
 |     36. 有效的数独              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/ValidSudoku.md) | |
+|     39. 组合总和              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/CombinationSum.md) | |
+|     40. 组合总和II              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/CombinationSumII.md) | |
+|     43. 字符串相乘              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/MultiplyStrings.md) | |
+|     46. 全排列              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/Permutations.md) | |
+|     47. 全排列 II              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/PermutationsII.md) | |
+|     48. 旋转图像              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/RotateImage.md) | |
+|     49. 字母异位词分组              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/GroupAnagrams.md) | |
+|     50. Pow(x, n)              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/RotateImage.md) | |
 
 
 
@@ -64,3 +73,9 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     30. 串联所有单词的子串                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/SubstringwithConcatenationofAllWords.md) | |
 |     32. 最长有效括号                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/LongestValidParentheses.md) | |
 |     37. 解数独                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/SudokuSolver.md) | |
+|     41. 缺失的第一个正数                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/FirstMissingPositive.md) | |
+|     42. 接雨水                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/TrappingRainWater.md) | |
+|     44. 通配符匹配                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/WildcardMatching.md) | |
+|     45. 跳跃游戏 II                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/JumpGameII.md) | |
+|     51. N皇后                | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/N-Queens.md) | |
+|     52. N皇后 II                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/N-QueensII.md) | |

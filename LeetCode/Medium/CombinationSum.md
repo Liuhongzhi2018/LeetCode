@@ -10,6 +10,7 @@ The same repeated number may be chosen from candidates unlimited number of times
 candidates 中的数字可以无限制重复被选取。
 
 ## 代码实现
+1.
 ``` C++
 class Solution {
 public:
@@ -35,8 +36,29 @@ public:
 };
 ```
 
+2.
+```python
+class Solution:
+    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
+        nums = sorted(candidates)
+        self.res = []
+        def recursive(idx,targ,cur):
+            for i in range(idx,len(nums)):
+                ni = nums[i]
+                if ni<targ:
+                    recursive(i,(targ-ni),cur+[ni])
+                else:
+                    if ni==targ:
+                        self.res.append(cur+[ni])
+                    break
+        recursive(0,target,[])
+        return self.res
+```
+
 ## 总结体会
 
 本题要求从无重复元素数组中找出满足和等于target的组合形式，这种组合既可以1个数，也可以多个数构成。
 
 在算法设计上，首先用sort函数对数组进行重排；其次调用recursion递归函数求得所有组合情况，out为组合中的一个，ans为所有组合情况，每得到一个组合，target从数组中去掉已经找到的元素；最后ans返回即为满足要求的组合。
+
+首先给数组进行一次排序，初始化self.res，声明recursive function递归函数，遍历下标如果当前比target小则继续迭代；最后递归0，target和一个空列表即可完成递归。

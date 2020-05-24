@@ -1,13 +1,14 @@
 #  Pow(x, n)
 
 ## 问题分析
+
 Implement pow(x, n), which calculates x raised to the power n(x<sup>n</sup>).
-
-
 
 实现 pow(x, n) ，即计算 x 的 n 次幂函数。
 
 ## 代码实现
+
+1.
 ``` C++
 class Solution {
 public:
@@ -22,6 +23,22 @@ public:
         else return y*y;
     }
 };
+```
+
+2.递归法
+```python
+class Solution:
+    def myPow(self, x: float, n: int) -> float:
+        if n==0:  
+            return 1
+        #若为负数
+        if n<0:  
+            return 1.0/self.myPow(x,-n)
+        #若n为奇数
+        if n%2==1:  
+            return x*self.myPow(x*x,n//2)  
+        else:  
+            return self.myPow(x*x,n//2) 
 ```
 
 ## 总结体会

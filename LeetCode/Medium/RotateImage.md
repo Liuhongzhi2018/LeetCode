@@ -1,6 +1,7 @@
 #  Rotate Image
 
 ## 问题分析
+
 You are given an n x n 2D matrix representing an image.
 
 Rotate the image by 90 degrees (clockwise).
@@ -10,6 +11,8 @@ Rotate the image by 90 degrees (clockwise).
 将图像顺时针旋转 90 度。
 
 ## 代码实现
+
+1.
 ``` C++
 class Solution {
 public:
@@ -33,6 +36,30 @@ public:
         }
     }
 };
+```
+
+2.
+```python
+class Solution:
+    def rotate(self, matrix: List[List[int]]) -> None:
+        """
+        Do not return anything, modify matrix in-place instead.
+        """
+        start = 0
+        gap = len(matrix)-1
+        while gap>0:
+            for i in range(gap):
+                matrix[start][start+i],\
+                matrix[start+i][start+gap],\
+                matrix[start+gap][start+gap-i],\
+                matrix[start+gap-i][start] = \
+                matrix[start+gap-i][start],\
+                matrix[start][start+i],\
+                matrix[start+i][start+gap],\
+                matrix[start+gap][start+gap-i]
+            start += 1
+            gap -= 2
+        return matrix
 ```
 
 ## 总结体会

@@ -22,6 +22,8 @@ Note: Each term of the sequence of integers will be represented as a string.
 注意：整数顺序将表示为一个字符串。
 
 ## 代码实现
+
+1.
 ``` C
 char* countAndSay(int n) {
 	if (n <= 0) return "";
@@ -53,8 +55,31 @@ char* countAndSay(int n) {
 }
 ```
 
+2.递归法
+```python
+class Solution:
+    def countAndSay(self, n: int) -> str:
+        def recursive(n):
+            if n==1:
+                return '1'
+            cur = recursive(n-1)
+            res, cache = "",(None,0)
+            for c in cur:
+                if c == cache[0]:
+                    cache = (cache[0],cache[1]+1)
+                else:
+                    if cache[0]:
+                        res += str(cache[1])+cache[0]
+                    cache = (c,1)
+            res += str(cache[1])+cache[0]
+            return res
+        return recursive(n)
+```
+
 ## 总结体会
 
 本题主要考察规律的算法实现，第n行的字符串元素主要取决于第n-1行的字符串组成。
 
 在编程实现时，主要困难在于数组长度的初始化定义，尝试使用动态内存分配的方法对临时数组的长度进行初始化，然后将前一行字符串连续相同元素个数作为第n行的元素，进而组成第n个字符串。
+
+思路是从第一个推到第n个。递归的优点是可以复用自己写的函数。cur存储前一次的结果，res用于返回，cache用于保存中间的过程，如果数字在中间变化的时候更新res，如果没有变换更新cache。
