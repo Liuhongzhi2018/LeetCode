@@ -1,6 +1,7 @@
 #  Jump Game
 
 ## 问题分析
+
 Given an array of non-negative integers, you are initially positioned at the first index of the array.
 
 Each element in the array represents your maximum jump length at that position.
@@ -14,6 +15,8 @@ Determine if you are able to reach the last index.
 判断你是否能够到达最后一个位置。
 
 ## 代码实现
+
+1.
 ``` C++
 class Solution {
 public:
@@ -27,6 +30,24 @@ public:
         return i==len;
     }
 };
+```
+
+2.贪心算法
+```python
+class Solution:
+    def canJump(self, nums: List[int]) -> bool:
+        len_nums=len(nums) 
+        max_arrived=0 
+        for i,num in enumerate(nums): 
+            if i==0: 
+                max_arrived=i+num 
+            elif max_arrived>=i: 
+                max_arrived=(max(i+num,max_arrived)) 
+            else: 
+                return False 
+            if max_arrived>=len_nums-1: 
+                return True 
+        return False
 ```
 
 ## 总结体会

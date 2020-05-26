@@ -26,6 +26,7 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     28. 实现 strStr()                  | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ImplementStrStr().md) | |
 |     35. 搜索插入位置                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/SearchInsertPosition.md) | |
 |     38. 外观数列                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/CountAndSay.md) | |
+|     53. 最大子序和                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/MaximumSubarray.md) | |
 
 
 
@@ -59,7 +60,8 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     48. 旋转图像              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/RotateImage.md) | |
 |     49. 字母异位词分组              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/GroupAnagrams.md) | |
 |     50. Pow(x, n)              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/RotateImage.md) | |
-
+|     54. 螺旋矩阵               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/SpiralMatrix.md) | |
+|     55. 跳跃游戏               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/JumpGame.md) | |
 
 
 ### 困难
