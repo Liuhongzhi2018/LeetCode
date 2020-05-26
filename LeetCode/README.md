@@ -13,7 +13,7 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 
 |                  Title                   |                  Python                  |                   C++                    |                   Blog                   |
 | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | :--------------------------------------: |
-|     1.两数之和                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/Twosum.md) | |
+|     1.两数之和                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/TwoSum.md) | |
 |     3. 无重复字符的最长子串                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/LongestSubstringWithoutRepeatingCharacters.md) | |
 |     7. 整数反转                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ReverseInteger.md) | |
 |     9. 回文数                   | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/PalindromeNumber.md) | |
