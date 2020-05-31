@@ -62,6 +62,7 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     50. Pow(x, n)              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/RotateImage.md) | |
 |     54. 螺旋矩阵               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/SpiralMatrix.md) | |
 |     55. 跳跃游戏               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/JumpGame.md) | |
+|     56. 合并区间               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/MergeIntervals.md) | |
 
 
 ### 困难
@@ -81,3 +82,4 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     45. 跳跃游戏 II                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/JumpGameII.md) | |
 |     51. N皇后                | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/N-Queens.md) | |
 |     52. N皇后 II                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/N-QueensII.md) | |
+|     57. 插入区间                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/InsertInterval.md) | |
