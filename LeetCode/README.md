@@ -59,7 +59,7 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     47. 全排列 II              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/PermutationsII.md) | |
 |     48. 旋转图像              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/RotateImage.md) | |
 |     49. 字母异位词分组              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/GroupAnagrams.md) | |
-|     50. Pow(x, n)              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/RotateImage.md) | |
+|     50. Pow(x, n)              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/Pow.md) | |
 |     54. 螺旋矩阵               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/SpiralMatrix.md) | |
 |     55. 跳跃游戏               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/JumpGame.md) | |
 |     56. 合并区间               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/MergeIntervals.md) | |
