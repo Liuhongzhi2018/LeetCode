@@ -1,0 +1,7 @@
+https://proxy-switchyomega.com/download/#firefox-%E6%88%96%E5%9F%BA%E4%BA%8E-mozilla-%E7%9A%84%E6%B5%8F%E8%A7%88%E5%99%A8
+
+Chrome https://github.com/FelisCatus/SwitchyOmega/releases
+Firefox https://github.com/FelisCatus/SwitchyOmega/releases
+
+henry@henry-Nitro-AN515-51:~/clash$ ./clash -d .
+
