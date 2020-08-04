@@ -34,5 +34,20 @@ int lengthOfLastWord(char* s) {
 }
 ```
 
+```python
+class Solution:
+    def lengthOfLastWord(self, s: str) -> int:
+        newstr = s.rstrip()
+        if not newstr:
+            return 0
+        else:
+            return len(newstr.split()[-1])
+
+```
+
 ## 总结体会
 本题要求最后一个单词的长度，采用的不同以往从前向后的程序设计思想，而是从后向前查找的思路。从最后一位开始遍历字符串元素，遇到字母前的空格元素忽略，当开始有单词出现时标志位由0为1，计算字母个数；再遇到空格时，如果前面出现过单词，则循环终止，返回字母个数。
+
+首先用rstrip()方法去除字符串结尾的空格，此时若未空字符串则返回0；然后用split()方法将字符串切分成由单词组成的list，索引到最后一个单词返回长度。
+
+
