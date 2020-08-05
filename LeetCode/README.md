@@ -2,6 +2,8 @@
 
 ## 学习资料
 
+[题解笔记参考](https://github.com/CyC2018/CS-Notes)
+
 [五分钟力扣 Leetcode](https://www.bilibili.com/video/BV1vE411A7Mj?from=search&seid=10797634719372911097)  
 Python可视化编程： http://pythontutor.com/live.html#mode=edit  
 五分钟力扣 Leetcode: https://www.bilibili.com/video/BV1vE411A7Mj?from=search&seid=14475795548188315467
@@ -28,6 +30,7 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     38. 外观数列                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/CountAndSay.md) | |
 |     53. 最大子序和                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/MaximumSubarray.md) | |
 |     58. 最后一个单词的长度                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/LengthofLastWord.md) | |
+|     167. 两数之和II                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/TwoSumII-Inputarrayissorted.md) | |
 
 
 
