@@ -36,6 +36,7 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     167. 两数之和II                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/TwoSumII-Inputarrayissorted.md) | |
 |     345. 反转字符串中的元音字母                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ReverseVowelsofaString.md) | |
 |     633. 平方数之和                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/SumofSquareNumbers.md) | |
+|     680. 验证回文字符串 Ⅱ                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ValidPalindromeII.md) | |
 
 
 
