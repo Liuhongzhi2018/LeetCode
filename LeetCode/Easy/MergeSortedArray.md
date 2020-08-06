@@ -12,6 +12,7 @@ Note: The number of elements initialized in nums1 and nums2 are m and n respecti
 
 
 ## 代码实现
+1.
 ``` C
 void merge(int* nums1, int m, int* nums2, int n) {
 	int i = m - 1;
@@ -25,6 +26,39 @@ void merge(int* nums1, int m, int* nums2, int n) {
 		
 	}
 }
+```
+
+2.先合并再排序
+```python
+class Solution:
+    def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
+        """
+        Do not return anything, modify nums1 in-place instead.
+        """
+        nums1[:] = sorted(nums1[:m]+nums2)
+```
+
+3.双指针法
+```python
+class Solution:
+    def merge(self, nums1: List[int], m: int, nums2: List[int], n: int) -> None:
+        """
+        Do not return anything, modify nums1 in-place instead.
+        """
+        new = nums1[:m]
+        nums1[:] = []
+        p1, p2 = 0, 0
+        while p1 < m and p2 < n:
+            if new[p1] < nums2[p2]:
+                nums1.append(new[p1])
+                p1 += 1
+            else:
+                nums1.append(nums2[p2])
+                p2 += 1
+        if p1 < m:
+            nums1[p1+p2:] = new[p1:]
+        if p2 < n:
+            nums1[p1+p2:] = nums2[p2:]
 ```
 
 ## 总结体会
