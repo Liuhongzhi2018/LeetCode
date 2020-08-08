@@ -1,15 +1,21 @@
 #  Linked List Cycle
 
 ## 问题分析
+
 Given a linked list, determine if it has a cycle in it.
+
+To represent a cycle in the given linked list, we use an integer pos which represents the position (0-indexed) in the linked list where tail connects to. If pos is -1, then there is no cycle in the linked list.
 
 Follow up: Solve it without using extra space.
 
 给定一个链表，判断链表中是否有环。
 
+为了表示给定链表中的环，我们使用整数 pos 来表示链表尾连接到链表中的位置（索引从 0 开始）。 如果 pos 是 -1，则在该链表中没有环。
+
 进阶：不使用额外空间解决此题。
 
 ## 代码实现
+1.
 ``` C
 /**
 * Definition for singly-linked list.
@@ -30,6 +36,28 @@ bool hasCycle(struct ListNode *head) {
     }
     return false;
 }
+```
+
+2. 快慢指针法
+```python
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+class Solution:
+    def hasCycle(self, head: ListNode) -> bool:
+        if head == None or head.next == None:
+            return False
+        slow = head
+        fast = head.next
+        while fast and fast.next:
+            slow = slow.next
+            fast = fast.next.next
+            if slow == fast:
+                return True
+        return False
 ```
 
 ## 总结体会

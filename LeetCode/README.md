@@ -34,6 +34,7 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     53. 最大子序和                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/MaximumSubarray.md) | |
 |     58. 最后一个单词的长度                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/LengthofLastWord.md) | |
 |     88. 合并两个有序数组                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/MergeSortedArray.md) | |
+|     141. 环形链表                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/LinkedListCycle.md) | |
 |     167. 两数之和II                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/TwoSumII-Inputarrayissorted.md) | |
 |     345. 反转字符串中的元音字母                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ReverseVowelsofaString.md) | |
 |     633. 平方数之和                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/SumofSquareNumbers.md) | |
@@ -76,6 +77,11 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     55. 跳跃游戏               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/JumpGame.md) | |
 |     56. 合并区间               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/MergeIntervals.md) | |
 |     59. 螺旋矩阵II               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/SpiralMatrixII.md) | |
+|     75. 颜色分类              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/SortColors.md) | |
+|     215. 数组中的第K个最大元素               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/KthLargestElementinanArray.md) | |
+|     347. 前 K 个高频元素              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/TopKFrequentElements.md) | |
+|     451. 根据字符出现频率排序              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/SortCharactersByFrequency.md) | |
+|     524. 通过删除字母匹配到字典里最长单词               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/LongestWordinDictionarythroughDeleting.md) | |
 
 
 ### 困难
