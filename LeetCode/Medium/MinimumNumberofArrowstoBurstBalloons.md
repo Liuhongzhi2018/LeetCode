@@ -14,13 +14,24 @@ An arrow can be shot up exactly vertically from different points along the x-axi
 
 ## 代码实现
 
-1.
-``` python
-
-
+1.贪心算法
+```python
+class Solution:
+    def findMinArrowShots(self, points: List[List[int]]) -> int:
+        if len(points) < 2:
+            return len(points)
+        newball = sorted(points, key=lambda x:x[1])
+        arrow = 1
+        p = newball[0]
+        for ball in newball[1:]:
+            if ball[0] > p[1]:
+                p = ball
+                arrow += 1
+        return arrow
 ```
 
 
 
 ## 总结体会
 
+与435题无重叠区间类似，区别在于这里需要计算不重叠区间的个数，且对于区间交集只有端点情形计作重叠
