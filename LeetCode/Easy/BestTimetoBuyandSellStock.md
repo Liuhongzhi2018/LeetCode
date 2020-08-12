@@ -14,6 +14,8 @@ Note that you cannot sell a stock before you buy one.
 注意你不能在买入股票前卖出股票。
 
 ## 代码实现
+
+1.
 ``` C
 int maxProfit(int* prices, int pricesSize) {
     int i, j;
@@ -34,6 +36,18 @@ int maxProfit(int* prices, int pricesSize) {
 }
 ```
 
+2.
+```python
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+        minpf = float("inf")
+        maxpf = 0
+        for price in prices:
+            minpf = min(minpf, price)
+            maxpf = max(maxpf, price-minpf)
+        return maxpf
+```
+
 ## 总结体会
 
 本题要求最大利润，可以转换为按数组元素排列顺序，求后项与前项最大差值的思想。
@@ -42,8 +56,9 @@ int maxProfit(int* prices, int pricesSize) {
 
 本题较为简单，第一次OJ可以Accepted。同时在编辑本文问题分析部分时，学习了markdown上标的写法，即sup和/sup间加上标内容th，显示为i的上标th。
 
-
-
+首先定义一个minprice=float('inf'),将minfprice定义为极大值。接着maxprofit=0，利润为0。  
+之后将prices带入price迭代，minprice为minprice,price之间，因为这里是有个先后的，所以minprice得到的价格一定是当前迭代之前和当前迭代的最小值，所以不用担心是使用的后面的数值。  
+接着maxprofit在maxprofit，与price-minprice之间选择，全部迭代完，输出最大值。
 
 
 
