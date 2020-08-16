@@ -33,6 +33,7 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     38. 外观数列                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/CountAndSay.md) | |
 |     53. 最大子序和                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/MaximumSubarray.md) | |
 |     58. 最后一个单词的长度                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/LengthofLastWord.md) | |
+|     69. x 的平方根                | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/Sqrt(x).md) | |
 |     88. 合并两个有序数组                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/MergeSortedArray.md) | |
 |     121. 买卖股票的最佳时机                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/BestTimetoBuyandSellStock.md) | |
 |     141. 环形链表                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/LinkedListCycle.md) | |
@@ -44,6 +45,7 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     633. 平方数之和                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/SumofSquareNumbers.md) | |
 |     665. 非递减数列                | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/Non-decreasingArray.md) | |
 |     680. 验证回文字符串 Ⅱ                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ValidPalindromeII.md) | |
+|     744. 寻找比目标字母大的最小字母                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/FindSmallestLetterGreaterThanTarget.md) | |
 
 
 
