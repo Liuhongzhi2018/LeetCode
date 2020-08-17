@@ -1,84 +1,56 @@
 #   Find First and Last Position of Element in Sorted Array
 
-## 问题分析
+## 问题描述
 
-Given an array of integers nums sorted in ascending order, find the starting and ending position of a given target value.
+Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand.
 
-给定一个按照升序排列的整数数组 nums，和一个目标值 target。找出给定目标值在数组中的开始位置和结束位置。
+(i.e.,  [0,1,2,4,5,6,7] might become  [4,5,6,7,0,1,2]).
+
+Find the minimum element.
+
+You may assume no duplicate exists in the array.
+
+假设按照升序排序的数组在预先未知的某个点上进行了旋转。
+
+( 例如，数组 [0,1,2,4,5,6,7] 可能变为 [4,5,6,7,0,1,2] )。
+
+请找出其中最小的元素。
+
+你可以假设数组中不存在重复元素。
+
 
 ## 代码实现
 
 1.
-``` C++
-class Solution {
-public:
-    vector<int> searchRange(vector<int>& nums, int target) {
-        int n=nums.size();
-        if(n<1)  return {-1,-1};
-        int first=findFirst(nums,target);
-        int last=findLast(nums,target);
-        return {first,last};
-    }
-    int findFirst(vector<int>& nums, int target){
-        int left=0,right=nums.size()-1;
-        int mid;
-        while(left<=right){
-            int mid=(left+right)/2;
-            if(nums[mid]<target)   left=mid+1;
-            else  right=mid-1;
-        }
-        if(left<nums.size()&&nums[left]==target)
-            return left;
-        return -1;
-    }
-    int findLast(vector<int>& nums, int target){
-        int left=0,right=nums.size()-1;
-        int mid;
-        while(left<=right){
-            mid=(left+right)/2;
-            if(nums[mid]<=target)  left=mid+1;
-            else  right=mid-1;
-        }
-        if(right>=0&&nums[right]==target)
-            return right;
-        return -1;
-    }
-};
-```
-
-2.bisect二分查找包
 ```python
 class Solution:
-    def searchRange(self, nums: List[int], target: int) -> List[int]:
-        from bisect import bisect_left, bisect_right
-        if len(nums)==0:
-            return [-1,-1]
-        res = [-1,-1]
-        left = bisect_left(nums,target)
-        if left<len(nums) and nums[left]==target:
-            res[0]=left
-            res[1]=bisect_right(nums,target)-1
-        return res
+    def findMin(self, nums: List[int]) -> int:
+        if len(nums) == 1:
+            return nums[0]
+
+        left = 0
+        right = len(nums) - 1
+
+        if nums[right] > nums[0]:
+            return nums[0]
+
+        while left <= right:
+            mid = left + (right - left) // 2
+            if nums[mid] > nums[mid+1]:
+                return nums[mid+1]
+            if nums[mid-1] > nums[mid]:
+                return nums[mid]
+            if nums[mid]>nums[0]:
+                left = mid + 1
+            else:
+                right = mid - 1
 ```
 
-3.
-```python
-class Solution:
-    def searchRange(self, nums: List[int], target: int) -> List[int]:
-        try:
-            return [nums.index(target), len(nums)-\
-            (list(nums[::-1]).index(target))-1]
-        except:
-            return [-1,-1]
 
-```
+## 思考总结
 
-## 总结体会
+二分搜索。  
+一种暴力的解法是搜索整个数组，找到其中的最小元素，这样的时间复杂度是 O(N)O(N)O(N) 其中 NNN 是给定数组的大小。  
+一个非常棒的解决该问题的办法是使用二分搜索。在二分搜索中，我们找到区间的中间点并根据某些条件决定去区间左半部分还是右半部分搜索。由于给定的数组是有序的，我们就可以使用二分搜索。然而，数组被旋转了，所以简单的使用二分搜索并不可行。在这个问题中，我们使用一种改进的二分搜索，判断条件与标准的二分搜索有些不同。
 
-本题要求找出目标值在数组中的位置，通过题意可知不存在则[-1,-1]，出现1次则两个相同位置，出现2次则两个不同位置。
-
-在算法设计上，首先应该考虑数组没有元素情况，即[]时应返回[-1,-1]，是第一次编译未通过的原因；其次采用二分查找法，分别查找第一次和第二次出现的位置，用中间值mid调整搜索范围；最后返回得到的位置。
-
-方法二python中bisect包已经实现好二分查找的功能。需要检查bisect插入的索引位置与target是否一致，如果一致则通过bisect返回右边索引。
-
-方法三用内置的index返回index下标，然后将数组逆序得到target下标再与数组长度相减即可。
+我们希望找到旋转排序数组的最小值，如果数组没有被旋转呢？如何检验这一点呢？如果数组没有被旋转，是升序排列，就满足 last element > first element。
