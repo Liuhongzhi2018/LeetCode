@@ -88,6 +88,8 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     75. 颜色分类              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/SortColors.md) | |
 |     95. 不同的二叉搜索树 II              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/UniqueBinarySearchTreesII.md) | |
 |     153. 寻找旋转排序数组中的最小值              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/FindMinimuminRotatedSortedArray.md) | |
+|     127. 单词接龙              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/WordLadder.md) | |
+|     200. 岛屿数量              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/NumberofIslands.md) | |
 |     215. 数组中的第K个最大元素               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/KthLargestElementinanArray.md) | |
 |     241. 为运算表达式设计优先级               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/DifferentWaystoAddParentheses.md) | |
 |     279. 完全平方数               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/PerfectSquares.md) | |
@@ -98,6 +100,7 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     452. 用最少数量的箭引爆气球              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/MinimumNumberofArrowstoBurstBalloons.md) | |
 |     524. 通过删除字母匹配到字典里最长单词               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/LongestWordinDictionarythroughDeleting.md) | |
 |     540. 有序数组中的单一元素               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/SingleElementinaSortedArray.md) | |
+|     695. 岛屿的最大面积               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/MaxAreaofIsland.md) | |
 |     763. 划分字母区间               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/PartitionLabels.md) | |
 |     1091. 二进制矩阵中的最短路径               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/ShortestPathinBinaryMatrix.md) | |
 

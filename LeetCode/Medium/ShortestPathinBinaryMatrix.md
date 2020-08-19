@@ -88,3 +88,12 @@ class Solution:
 使用标准的BFS思路，每次朝八个方向延展。很重要的一点是 要在延展的时候 就把这些被延展的点标为visited，不然会超时的。
 
 把普通的queue改为priority queue (heapq) 然后每次优先走离终点近的点。难点是怎么定义这个优先级，这里参考：https://leetcode-cn.com/problems/shortest-path-in-binary-matrix/solution/qi-fa-shi-sou-suo-xiao-guo-bu-cuo-by-ari-5/
+
+通常用队列（先进先出，FIFO）实现
+初始化队列Q；
+Q = {起点s}；标记s为已访问；
+while(Q非空):
+    取Q队首元素u；u出队；
+    if u == 目标状态 {...}
+    所有与u相邻且未被访问的点进入队列；
+    标记u为已访问；
