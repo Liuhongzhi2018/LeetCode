@@ -1,4 +1,4 @@
-#  3Sum
+#  Shortest Path in Binary Matrix
 
 ## 问题描述
 

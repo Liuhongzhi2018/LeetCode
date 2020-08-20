@@ -1,6 +1,7 @@
 #  3Sum
 
-## 问题分析
+## 问题描述
+
 Given an array nums of n integers, are there elements a, b, c in nums such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero.
 
 Note: The solution set must not contain duplicate triplets.
@@ -9,7 +10,9 @@ Note: The solution set must not contain duplicate triplets.
 
 注意：答案中不可以包含重复的三元组。
 
+
 ## 代码实现
+
 1.
 ``` C
 /**
@@ -106,7 +109,7 @@ class Solution:
 ```
 
 
-## 总结体会
+## 思路总结
 
 本题要求从含n个整数的数组中，找出满足和为零的三元素组合，实际上需要将找出组合数并且满足加和为零的条件。
 
