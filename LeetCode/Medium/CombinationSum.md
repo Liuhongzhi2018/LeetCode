@@ -1,6 +1,7 @@
 #  Combination Sum
 
 ## 问题分析
+
 Given a set of candidate numbers (candidates) (without duplicates) and a target number (target), find all unique combinations in candidates where the candidate numbers sums to target.
 
 The same repeated number may be chosen from candidates unlimited number of times.
@@ -10,6 +11,7 @@ The same repeated number may be chosen from candidates unlimited number of times
 candidates 中的数字可以无限制重复被选取。
 
 ## 代码实现
+
 1.
 ``` C++
 class Solution {
@@ -55,6 +57,51 @@ class Solution:
         return self.res
 ```
 
+3.
+```python
+class Solution:
+    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
+        newcond = sorted(candidates)
+        ans = []
+
+        def find(s, use, remain):
+            for i in range(s, len(newcond)):
+                c = newcond[i]
+                if c == remain:
+                    ans.append(use+[c])
+                if c < remain:
+                    find(i, use+[c], remain-c)
+                if c> remain:
+                    return
+
+        find(0, [], target)
+
+        return ans
+```
+
+4.回溯法
+```python
+class Solution:
+    def combinationSum(self, candidates: List[int], target: int) -> List[List[int]]:
+        candidates.sort()
+        n = len(candidates)
+        res = []
+
+        def backtrack(i, tmp_sum, tmp):
+            if tmp_sum > target or i == n:
+                return
+            if tmp_sum == target:
+                res.append(tmp)
+                return
+            for j in range(i, n):
+                if tmp_sum + candidates[j] > target:
+                    break
+                backtrack(j, tmp_sum+candidates[j],tmp+[candidates[j]])
+        
+        backtrack(0, 0, [])
+        return res
+```
+
 ## 总结体会
 
 本题要求从无重复元素数组中找出满足和等于target的组合形式，这种组合既可以1个数，也可以多个数构成。
@@ -62,3 +109,5 @@ class Solution:
 在算法设计上，首先用sort函数对数组进行重排；其次调用recursion递归函数求得所有组合情况，out为组合中的一个，ans为所有组合情况，每得到一个组合，target从数组中去掉已经找到的元素；最后ans返回即为满足要求的组合。
 
 首先给数组进行一次排序，初始化self.res，声明recursive function递归函数，遍历下标如果当前比target小则继续迭代；最后递归0，target和一个空列表即可完成递归。
+
+回溯法模板，实回溯算法关键在于:不合适就退回上一步，然后通过约束条件, 减少时间复杂度.

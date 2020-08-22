@@ -95,7 +95,66 @@ class Solution:
 
 ```
 
+3.回溯法
+```python
+class Solution:
+    def solveNQueens(self, n: int) -> List[List[str]]:
+        def could_place(row, col): 
+            return not (cols[col] + hill_diagonals[row - col] + dale_diagonals[row + col]) 
+
+        def place_queen(row, col): 
+            queens.add((row, col)) 
+            cols[col] = 1 
+            hill_diagonals[row - col] = 1 
+            dale_diagonals[row + col] = 1 
+            
+        def remove_queen(row, col): 
+            queens.remove((row, col)) 
+            cols[col] = 0 
+            hill_diagonals[row - col] = 0 
+            dale_diagonals[row + col] = 0 
+            
+        def add_solution(): 
+            solution = [] 
+            for _, col in sorted(queens): 
+                solution.append('.' * col + 'Q' + '.' * (n - col - 1)) 
+            output.append(solution) 
+            
+        def backtrack(row = 0): 
+            for col in range(n): 
+                if could_place(row, col): 
+                    place_queen(row, col) 
+                    if row + 1 == n: 
+                        add_solution() 
+                    else: 
+                        backtrack(row + 1) 
+                    remove_queen(row, col) 
+                    
+        cols = [0] * n 
+        hill_diagonals = [0] * (2 * n - 1) 
+        dale_diagonals = [0] * (2 * n - 1) 
+        queens = set() 
+        output = [] 
+        backtrack() 
+        return output
+```
+
 
 ## 思路总结
 
 由于每行只能有一个皇后，第一行 有N种可能，从一行一列开始 如果一行一列可以放置皇后 则找到下一行第一个能放置皇后的列。如果下一行 没有符合条件的列，就返回上一行找到下一个可以放置皇后的列。遍历的行数 == N 则获得一次 结果。如果在第一行也找不到能放置皇后的列 则查找结束。
+
+回溯函数 backtrack(row = 0).
+
+    从第一个 row = 0 开始.
+
+    循环列并且试图在每个 column 中放置皇后.
+
+        如果方格 (row, column) 不在攻击范围内
+            在 (row, column) 方格上放置皇后。
+            排除对应行，列和两个对角线的位置。
+            If 所有的行被考虑过，row == N
+                意味着我们找到了一个解
+            Else
+                继续考虑接下来的皇后放置 backtrack(row + 1).
+            回溯：将在 (row, column) 方格的皇后移除.

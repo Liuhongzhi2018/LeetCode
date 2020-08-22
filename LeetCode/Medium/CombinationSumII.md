@@ -60,6 +60,33 @@ class Solution:
         return self.res
 ```
 
+3.
+```python
+class Solution:
+    def combinationSum2(self, candidates: List[int], target: int) -> List[List[int]]:
+        if target == 0 or len(candidates) == 0:
+            return []
+        res = []
+        candidates.sort()
+
+        def backtrack(tar, idx, cur):
+            if tar == 0:
+                res.append(cur[:])
+                return
+            for i in range(idx, len(candidates)):
+                if candidates[i] > tar:
+                    break
+                # 剪枝
+                if i > idx and candidates[i] == candidates[i-1]:
+                    continue
+                cur.append(candidates[i])
+                backtrack(tar-candidates[i], i+1, cur)
+                cur.pop()
+
+        backtrack(target, 0, [])
+        return res
+```
+
 ## 总结体会
 
 本题与上一题的区别在于，给定数组candidates中含有重复数字，并且要求在组合中每个数字只能使用一次，

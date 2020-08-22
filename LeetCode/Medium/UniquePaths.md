@@ -1,6 +1,7 @@
 #  Unique Paths
 
 ## 问题分析
+
 A robot is located at the top-left corner of a m x n grid (marked 'Start' in the diagram below).
 
 The robot can only move either down or right at any point in time. The robot is trying to reach the bottom-right corner of the grid (marked 'Finish' in the diagram below).
@@ -14,6 +15,8 @@ How many possible unique paths are there?
 问总共有多少条不同的路径？
 
 ## 代码实现
+
+1.
 ``` C++
 class Solution {
 public:
@@ -27,6 +30,24 @@ public:
     return (int)res;
     }
 };
+```
+
+2.动态规划
+```python
+class Solution:
+    def uniquePaths(self, m: int, n: int) -> int:
+        dp = [[1]*n] + [[1]+[0] * (n-1) for _ in range(m-1)]
+        for i in range(1, m): 
+            for j in range(1, n): 
+                dp[i][j] = dp[i-1][j] + dp[i][j-1] 
+        return dp[-1][-1]
+```
+
+3.排列组合
+```python
+class Solution:
+    def uniquePaths(self, m: int, n: int) -> int:
+        return int(math.factorial(m+n-2)/math.factorial(m-1)/math.factorial(n-1))
 ```
 
 ## 总结体会

@@ -1,6 +1,6 @@
 #  Permutations II
 
-## 问题分析
+## 问题描述
 
 Given a collection of numbers that might contain duplicates, return all possible unique permutations.
 
@@ -61,7 +61,32 @@ class Solution:
         return res
 ```
 
-## 总结体会
+3. 回溯和剪枝
+```python
+class Solution:
+    def permuteUnique(self, nums: List[int]) -> List[List[int]]:
+
+        def backtrack(cur_len=0):
+            if cur_len == n:
+                res.append(nums[:])
+                return
+            
+            backtrack(cur_len+1)
+            for i in range(0, cur_len):
+                if (nums[i] == nums[cur_len]):
+                    return
+                nums[cur_len], nums[i] = nums[i], nums[cur_len]
+                backtrack(cur_len+1)
+                nums[cur_len], nums[i] = nums[i], nums[cur_len]
+
+        nums.sort()
+        n = len(nums)
+        res = []
+        backtrack()
+        return res
+```
+
+## 思考总结
 
 本题同样要求全排列，但是与上一题求全排列的不同之处在于有重复数字情况下组合不能重复。
 

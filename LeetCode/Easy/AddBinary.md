@@ -1,6 +1,7 @@
 # Add Binary  
 
-## 问题分析
+## 问题描述
+
 Given two binary strings, return their sum (also a binary string).
 
 The input strings are both non-empty and contains only characters 1 or 0.
@@ -11,6 +12,8 @@ The input strings are both non-empty and contains only characters 1 or 0.
 
 
 ## 代码实现
+
+1.
 ``` C
 char *addBinary(char *a, char *b) {
 	int i;
@@ -49,5 +52,6 @@ char *addBinary(char *a, char *b) {
 }
 ```
 
-## 总结体会
+## 思考总结
+
 本题所求为二进制无符号位的有进位加法，难点在于动态内存分配和最高位有进位时的字符串保存。与所学数字电路中一样，二进制加法从最低位开始加起，当最高位有进位时字符串数组长度会加1，然后将字符串返回输出，即可得到加法结果。
