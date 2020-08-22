@@ -20,7 +20,7 @@ class Solution:
         return dp[n] 
 ```
 
-2.动态规划
+2.优化动态规划
 ```python
 class Solution:
     def integerBreak(self, n: int) -> int:

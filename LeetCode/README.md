@@ -44,7 +44,6 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     257. 二叉树的所有路径                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/BinaryTreePaths.md) | |
 |     278. 第一个错误的版本                | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/FirstBadVersion.md) | |
 |     303. 区域和检索 - 数组不可变                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/RangeSumQuery.md) | |
-|     343. 整数拆分                | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/IntegerBreak.md) | |
 |     345. 反转字符串中的元音字母                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ReverseVowelsofaString.md) | |
 |     392. 判断子序列                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/IsSubsequence.md) | |
 |     413. 等差数列划分                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ArithmeticSlices.md) | |
@@ -98,30 +97,45 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     78. 子集             | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/Subsets.md) | |
 |     77. 组合              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/Combinations.md) | |
 |     79. 单词搜索              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/WordSearch.md) | |
+|     91. 解码方法              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/DecodeWays.md) | |
 |     93. 复原IP地址              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/RestoreIPAddresses.md) | |
 |     95. 不同的二叉搜索树 II              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/UniqueBinarySearchTreesII.md) | |
 |     153. 寻找旋转排序数组中的最小值              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/FindMinimuminRotatedSortedArray.md) | |
 |     127. 单词接龙              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/WordLadder.md) | |
 |     130. 被围绕的区域              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/SurroundedRegions.md) | |
 |     131. 分割回文串              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/PalindromePartitioning.md) | |
+|     139. 单词拆分              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/WordBreak.md) | |
 |     200. 岛屿数量              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/NumberofIslands.md) | |
 |     213. 打家劫舍 II               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/HouseRobberII.md) | |
 |     215. 数组中的第K个最大元素               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/KthLargestElementinanArray.md) | |
 |     216. 组合总和 III               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/CombinationSumIII.md) | |
 |     241. 为运算表达式设计优先级               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/DifferentWaystoAddParentheses.md) | |
 |     279. 完全平方数               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/PerfectSquares.md) | |
+|     300. 最长上升子序列               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/LongestIncreasingSubsequence.md) | |
+|     309. 最佳买卖股票时机含冷冻期               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/BestTimetoBuyandSellStockwithCooldown.md) | |
+|     322. 零钱兑换               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/CoinChange.md) | |
+|     343. 整数拆分                | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/IntegerBreak.md) | |
 |     347. 前 K 个高频元素              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/TopKFrequentElements.md) | |
+|     376. 摆动序列              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/WiggleSubsequence.md) | |
+|     377. 组合总和 Ⅳ              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/CombinationSumIV.md) | |
 |     406. 根据身高重建队列              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/QueueReconstructionbyHeight.md) | |
+|     416. 分割等和子集             | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/PartitionEqualSubsetSum.md) | |
 |     417. 太平洋大西洋水流问题              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/PacificAtlanticWaterFlow.md) | |
 |     435. 无重叠区间              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/Non-overlappingIntervals.md) | |
 |     451. 根据字符出现频率排序              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/SortCharactersByFrequency.md) | |
 |     452. 用最少数量的箭引爆气球              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/MinimumNumberofArrowstoBurstBalloons.md) | |
+|     494. 目标和              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/TargetSum.md) | |
+|     474. 一和零              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/OnesandZeroes.md) | |
+|     518. 零钱兑换II               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/CoinChangeII.md) | |
 |     524. 通过删除字母匹配到字典里最长单词               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/LongestWordinDictionarythroughDeleting.md) | |
 |     540. 有序数组中的单一元素               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/SingleElementinaSortedArray.md) | |
 |     547. 朋友圈               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/FriendCircles.md) | |
+|     583. 两个字符串的删除操作               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/DeleteOperationforTwoStrings.md) | |
+|     646. 最长数对链               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/MaximumLengthofPairChain.md) | |
 |     695. 岛屿的最大面积               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/MaxAreaofIsland.md) | |
 |     763. 划分字母区间               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/PartitionLabels.md) | |
 |     1091. 二进制矩阵中的最短路径               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/ShortestPathinBinaryMatrix.md) | |
+|     1143. 最长公共子序列               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/LongestCommonSubsequence.md) | |
 
 
 ### 困难
