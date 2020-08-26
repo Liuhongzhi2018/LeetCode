@@ -41,6 +41,7 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     141. 环形链表                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/LinkedListCycle.md) | |
 |     167. 两数之和II                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/TwoSumII-Inputarrayissorted.md) | |
 |     198. 打家劫舍                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/HouseRobber.md) | |
+|     204. 计数质数                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/CountPrimes.md) | |
 |     257. 二叉树的所有路径                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/BinaryTreePaths.md) | |
 |     278. 第一个错误的版本                | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/FirstBadVersion.md) | |
 |     303. 区域和检索 - 数组不可变                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/RangeSumQuery.md) | |
