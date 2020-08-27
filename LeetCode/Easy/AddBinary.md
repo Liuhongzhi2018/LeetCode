@@ -52,6 +52,28 @@ char *addBinary(char *a, char *b) {
 }
 ```
 
+2.
+```python
+class Solution:
+    def addBinary(self, a: str, b: str) -> str:
+        if len(a)<len(b): 
+            a='0'*(len(b)-len(a))+a 
+        else: b='0'*(len(a)-len(b))+b 
+        carry=0 
+        res='' 
+        for i in range(len(a)-1,-1,-1): 
+            if int(a[i])+int(b[i])+carry>=2: 
+                res=str(int(a[i])+int(b[i])+carry-2)+res 
+                carry=1 
+            else: 
+                res=str(int(a[i])+int(b[i])+carry)+res 
+                carry=0 
+        
+        if carry==1: 
+            res='1'+res 
+        return res
+```
+
 ## 思考总结
 
 本题所求为二进制无符号位的有进位加法，难点在于动态内存分配和最高位有进位时的字符串保存。与所学数字电路中一样，二进制加法从最低位开始加起，当最高位有进位时字符串数组长度会加1，然后将字符串返回输出，即可得到加法结果。

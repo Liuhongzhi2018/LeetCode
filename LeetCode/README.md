@@ -35,11 +35,14 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     38. 外观数列                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/CountAndSay.md) | |
 |     53. 最大子序和                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/MaximumSubarray.md) | |
 |     58. 最后一个单词的长度                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/LengthofLastWord.md) | |
+|     67. 二进制求和                | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/AddBinary.md) | |
 |     69. x 的平方根                | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/Sqrt(x).md) | |
 |     88. 合并两个有序数组                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/MergeSortedArray.md) | |
 |     121. 买卖股票的最佳时机                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/BestTimetoBuyandSellStock.md) | |
 |     141. 环形链表                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/LinkedListCycle.md) | |
 |     167. 两数之和II                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/TwoSumII-Inputarrayissorted.md) | |
+|     168. Excel表列名称                | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ExcelSheetColumnTitle.md) | |
+|     172. 阶乘后的零                | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/FactorialTrailingZeroes.md) | |
 |     198. 打家劫舍                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/HouseRobber.md) | |
 |     204. 计数质数                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/CountPrimes.md) | |
 |     257. 二叉树的所有路径                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/BinaryTreePaths.md) | |
@@ -48,7 +51,10 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     345. 反转字符串中的元音字母                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ReverseVowelsofaString.md) | |
 |     392. 判断子序列                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/IsSubsequence.md) | |
 |     413. 等差数列划分                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ArithmeticSlices.md) | |
+|     415. 字符串相加                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/AddStrings.md) | |
+|     405. 数字转换为十六进制数                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ConvertaNumbertoHexadecimal.md) | |
 |     455. 分发饼干                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/AssignCookies.md) | |
+|     504. 七进制数                | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/Base7.md) | |
 |     507. 完美数                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/PerfectNumber.md) | |
 |     605. 种花问题                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/CanPlaceFlowers.md) | |
 |     633. 平方数之和                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/SumofSquareNumbers.md) | |
@@ -99,6 +105,7 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     78. 子集             | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/Subsets.md) | |
 |     77. 组合              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/Combinations.md) | |
 |     79. 单词搜索              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/WordSearch.md) | |
+|     90. 子集 II              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/SubsetsII.md) | |
 |     91. 解码方法              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/DecodeWays.md) | |
 |     93. 复原IP地址              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/RestoreIPAddresses.md) | |
 |     95. 不同的二叉搜索树 II              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/UniqueBinarySearchTreesII.md) | |

@@ -1,11 +1,14 @@
 #  Excel Sheet Column Title
 
 ## 问题分析
+
 Given a positive integer, return its corresponding column title as appear in an Excel sheet.
 
 给定一个正整数，返回它在 Excel 表中相对应的列名称。
 
 ## 代码实现
+
+1.
 ``` C
 int number(int n)
 {
@@ -32,6 +35,13 @@ char* convertToTitle(int n)
     column[count] = '\0';
     return column;
 }
+```
+
+2.
+```python
+class Solution:
+    def convertToTitle(self, n: int) -> str:
+        return "" if not n else self.convertToTitle(n//26-(0 if n%26 else 1))+" ABCDEFGHIJKLMNOPQRSTUVWXYZ"[n%26 if n%26 else 26]
 ```
 
 ## 总结体会

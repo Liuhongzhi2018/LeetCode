@@ -1,12 +1,15 @@
 # Add Strings
 
 ## 问题分析
+
 Given two non-negative integers num1 and num2 represented as string, return the sum of num1 and num2.
 
 给定两个字符串形式的非负整数 num1 和num2 ，计算它们的和。
 
 
 ## 代码实现
+
+1.
 ``` C
 char* addStrings(char* num1, char* num2) {
     int n1 = strlen(num1);
@@ -35,6 +38,26 @@ char* addStrings(char* num1, char* num2) {
     if (sumStr[0] == '0')  sumStr++;
     return sumStr;
 }
+```
+
+2.
+```python
+class Solution:
+    def addStrings(self, num1: str, num2: str) -> str:
+        s1 = list(num1)[::-1] 
+        s2 = list(num2)[::-1] 
+        carry = 0 
+        res = [] 
+        i = 0 
+        
+        while i < len(s1) or i < len(s2) or carry: 
+            n1 = int(s1[i]) if i < len(s1) else 0 
+            n2 = int(s2[i]) if i < len(s2) else 0 
+            
+            carry, n = divmod(n1 + n2 + carry, 10) 
+            res.append(str(n)) 
+            i += 1 
+        return ''.join(res[::-1]) 
 ```
 
 ## 总结体会

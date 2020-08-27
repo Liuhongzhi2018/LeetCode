@@ -1,6 +1,7 @@
 #  Factorial Trailing Zeroes
 
 ## 问题分析
+
 Given an integer n, return the number of trailing zeroes in n!.
 
 Note: Your solution should be in logarithmic time complexity.
@@ -10,6 +11,8 @@ Note: Your solution should be in logarithmic time complexity.
 说明: 算法的时间复杂度应为 O(log n) 。
 
 ## 代码实现
+
+1.
 ``` C
 int trailingZeroes(int n) {
      int num = 0;
@@ -19,6 +22,17 @@ int trailingZeroes(int n) {
         }
         return num;
 }
+```
+
+2.
+```python
+class Solution:
+    def trailingZeroes(self, n: int) -> int:
+        if n == 0:
+            return 0
+        else:
+            return self.trailingZeroes(n // 5) + n // 5
+
 ```
 
 ## 总结体会
