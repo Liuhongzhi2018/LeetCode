@@ -105,6 +105,7 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     55. 跳跃游戏               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/JumpGame.md) | |
 |     56. 合并区间               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/MergeIntervals.md) | |
 |     59. 螺旋矩阵II               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/SpiralMatrixII.md) | |
+|     61. 旋转链表               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/RotateList.md) | |
 |     62. 不同路径               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/UniquePaths.md) | |
 |     64. 最小路径和               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/MinimumPathSum.md) | |
 |     75. 颜色分类              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/SortColors.md) | |

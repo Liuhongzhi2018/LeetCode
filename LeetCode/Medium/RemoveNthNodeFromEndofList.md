@@ -7,6 +7,7 @@ Given a linked list, remove the n-th node from the end of list and return its he
 
 
 ## 代码实现
+
 1.
 ``` C++
 /**
@@ -59,7 +60,36 @@ class Solution:
         return dummy.next
 ```
 
+3.遍历两遍
+```python
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+class Solution:
+    def removeNthFromEnd(self, head: ListNode, n: int) -> ListNode:
+        lenlist = 0
+        cur = head
+        while cur:
+            lenlist += 1
+            cur = cur.next
+        
+        loc = lenlist - n + 1
+        cur = head
+        p = 1
+        if p == loc:
+            return head.next
+        while p < loc-1:
+            p += 1
+            cur = cur.next
+        cur.next = cur.next.next
+        return head
+```
+
 ## 总结体会
+
 本题要求找到第n个倒数的结点，删除后返回头结点，实际上是对链表结点的遍历，然后返回修改后的链表。
 
 在算法设计上，首先判断要求的结点位置是否在链表中，若不在返回头结点；其次判断倒数n的位置，如果cur为空，则返回头结点，否则返回pre对应的元素即为需要删除的结点；最后返回头指针，即为所求链表。
