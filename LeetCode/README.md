@@ -174,3 +174,4 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     51. N皇后                | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/N-Queens.md) | |
 |     52. N皇后 II                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/N-QueensII.md) | |
 |     57. 插入区间                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/InsertInterval.md) | |
+|     76. 最小覆盖子串                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/MinimumWindowSubstring.md) | |
