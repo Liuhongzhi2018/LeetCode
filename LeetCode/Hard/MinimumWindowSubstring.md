@@ -46,3 +46,7 @@ class Solution:
 第二轮遍历，因为现在数字的范围是在[0,n+1]中，可以想一个办法在原数组中标记出现过的n；  
 标记方法是将出现过的k的下标位置的元素变为负数，以此标记出现过的k； 
 第三轮遍历下标，从1开始到n+1结束，当有元素是大于等于0时，返回当前下标。
+
+defaultdict还可以被用来计数，将default_factory设为int即可。 
+collections.defaultdict([default_factory[, …]])
+参考  https://blog.csdn.net/yangsong95/article/details/82319675

@@ -112,7 +112,8 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     78. 子集             | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/Subsets.md) | |
 |     77. 组合              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/Combinations.md) | |
 |     79. 单词搜索              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/WordSearch.md) | |
-|     90. 子集 II              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/SubsetsII.md) | |
+|     79. 单词搜索              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/WordSearch.md) | |
+|     80. 删除排序数组中的重复项 II              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/RemoveDuplicatesfromSortedArrayII.md) | |
 |     91. 解码方法              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/DecodeWays.md) | |
 |     93. 复原IP地址              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/RestoreIPAddresses.md) | |
 |     95. 不同的二叉搜索树 II              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/UniqueBinarySearchTreesII.md) | |
