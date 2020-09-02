@@ -41,6 +41,7 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     70. 爬楼梯               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ClimbingStairs.md) | |
 |     88. 合并两个有序数组                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/MergeSortedArray.md) | |
 |     121. 买卖股票的最佳时机                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/BestTimetoBuyandSellStock.md) | |
+|     125. 验证回文串                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ValidPalindrome.md) | |
 |     141. 环形链表                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/LinkedListCycle.md) | |
 |     167. 两数之和II                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/TwoSumII-Inputarrayissorted.md) | |
 |     168. Excel表列名称                | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ExcelSheetColumnTitle.md) | |
@@ -114,6 +115,7 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     79. 单词搜索              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/WordSearch.md) | |
 |     79. 单词搜索              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/WordSearch.md) | |
 |     80. 删除排序数组中的重复项 II              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/RemoveDuplicatesfromSortedArrayII.md) | |
+|     86. 分隔链表              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/PartitionList.md) | |
 |     91. 解码方法              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/DecodeWays.md) | |
 |     93. 复原IP地址              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/RestoreIPAddresses.md) | |
 |     95. 不同的二叉搜索树 II              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/UniqueBinarySearchTreesII.md) | |
@@ -122,6 +124,7 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     130. 被围绕的区域              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/SurroundedRegions.md) | |
 |     131. 分割回文串              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/PalindromePartitioning.md) | |
 |     139. 单词拆分              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/WordBreak.md) | |
+|     142. 环形链表 II             | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/LinkedListCycleII.md) | |
 |     200. 岛屿数量              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/NumberofIslands.md) | |
 |     213. 打家劫舍 II               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/HouseRobberII.md) | |
 |     215. 数组中的第K个最大元素               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/KthLargestElementinanArray.md) | |

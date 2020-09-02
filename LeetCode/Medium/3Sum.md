@@ -14,7 +14,7 @@ Note: The solution set must not contain duplicate triplets.
 ## 代码实现
 
 1.
-``` C
+```C
 /**
  * Return an array of arrays of size *returnSize.
  * Note: The returned array must be malloced, assume caller calls free().
