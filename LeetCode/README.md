@@ -116,15 +116,17 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     79. 单词搜索              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/WordSearch.md) | |
 |     80. 删除排序数组中的重复项 II              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/RemoveDuplicatesfromSortedArrayII.md) | |
 |     86. 分隔链表              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/PartitionList.md) | |
+|     88. 合并两个有序数组              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/MergeSortedArray.md) | |
 |     91. 解码方法              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/DecodeWays.md) | |
 |     93. 复原IP地址              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/RestoreIPAddresses.md) | |
 |     95. 不同的二叉搜索树 II              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/UniqueBinarySearchTreesII.md) | |
-|     153. 寻找旋转排序数组中的最小值              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/FindMinimuminRotatedSortedArray.md) | |
 |     127. 单词接龙              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/WordLadder.md) | |
 |     130. 被围绕的区域              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/SurroundedRegions.md) | |
 |     131. 分割回文串              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/PalindromePartitioning.md) | |
 |     139. 单词拆分              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/WordBreak.md) | |
 |     142. 环形链表 II             | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/LinkedListCycleII.md) | |
+|     153. 寻找旋转排序数组中的最小值              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/FindMinimuminRotatedSortedArray.md) | |
+|     167. 两数之和 II - 输入有序数组              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/TwoSumII-Inputarrayissorted.md) | |
 |     200. 岛屿数量              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/NumberofIslands.md) | |
 |     213. 打家劫舍 II               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/HouseRobberII.md) | |
 |     215. 数组中的第K个最大元素               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/KthLargestElementinanArray.md) | |
