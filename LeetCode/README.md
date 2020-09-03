@@ -49,8 +49,10 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     172. 阶乘后的零                | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/FactorialTrailingZeroes.md) | |
 |     198. 打家劫舍                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/HouseRobber.md) | |
 |     204. 计数质数                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/CountPrimes.md) | |
+|     234. 回文链表                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/PalindromeLinkedList.md) | |
 |     257. 二叉树的所有路径                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/BinaryTreePaths.md) | |
 |     278. 第一个错误的版本                | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/FirstBadVersion.md) | |
+|     283. 移动零                | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/MoveZeroes.md) | |
 |     303. 区域和检索 - 数组不可变                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/RangeSumQuery.md) | |
 |     326. 3的幂                | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/PowerofThree.md) | |
 |     345. 反转字符串中的元音字母                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ReverseVowelsofaString.md) | |
@@ -128,12 +130,14 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     153. 寻找旋转排序数组中的最小值              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/FindMinimuminRotatedSortedArray.md) | |
 |     167. 两数之和 II - 输入有序数组              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/TwoSumII-Inputarrayissorted.md) | |
 |     200. 岛屿数量              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/NumberofIslands.md) | |
+|     209. 长度最小的子数组              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/MinimumSizeSubarraySum.md) | |
 |     213. 打家劫舍 II               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/HouseRobberII.md) | |
 |     215. 数组中的第K个最大元素               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/KthLargestElementinanArray.md) | |
 |     216. 组合总和 III               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/CombinationSumIII.md) | |
 |     238. 除自身以外数组的乘积                | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/ProductofArrayExceptSelf.md) | |
 |     241. 为运算表达式设计优先级               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/DifferentWaystoAddParentheses.md) | |
 |     279. 完全平方数               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/PerfectSquares.md) | |
+|     287. 寻找重复数               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/FindtheDuplicateNumber.md) | |
 |     300. 最长上升子序列               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/LongestIncreasingSubsequence.md) | |
 |     309. 最佳买卖股票时机含冷冻期               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/BestTimetoBuyandSellStockwithCooldown.md) | |
 |     322. 零钱兑换               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/CoinChange.md) | |
