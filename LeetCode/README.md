@@ -55,7 +55,9 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     283. 移动零                | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/MoveZeroes.md) | |
 |     303. 区域和检索 - 数组不可变                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/RangeSumQuery.md) | |
 |     326. 3的幂                | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/PowerofThree.md) | |
+|     344. 反转字符串                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ReverseVowelsofaString.md) | |
 |     345. 反转字符串中的元音字母                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ReverseVowelsofaString.md) | |
+|     349. 两个数组的交集                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/IntersectionofTwoArrays.md) | |
 |     367. 有效的完全平方数                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ValidPerfectSquare.md) | |
 |     392. 判断子序列                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/IsSubsequence.md) | |
 |     413. 等差数列划分                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ArithmeticSlices.md) | |
@@ -148,6 +150,7 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     406. 根据身高重建队列              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/QueueReconstructionbyHeight.md) | |
 |     416. 分割等和子集             | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/PartitionEqualSubsetSum.md) | |
 |     417. 太平洋大西洋水流问题              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/PacificAtlanticWaterFlow.md) | |
+|     424. 替换后的最长重复字符              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/LongestRepeatingCharacterReplacement.md) | |
 |     435. 无重叠区间              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/Non-overlappingIntervals.md) | |
 |     451. 根据字符出现频率排序              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/SortCharactersByFrequency.md) | |
 |     452. 用最少数量的箭引爆气球              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/MinimumNumberofArrowstoBurstBalloons.md) | |
