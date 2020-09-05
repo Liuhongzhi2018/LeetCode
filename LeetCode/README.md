@@ -154,6 +154,7 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     435. 无重叠区间              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/Non-overlappingIntervals.md) | |
 |     451. 根据字符出现频率排序              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/SortCharactersByFrequency.md) | |
 |     452. 用最少数量的箭引爆气球              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/MinimumNumberofArrowstoBurstBalloons.md) | |
+|     457. 环形数组循环              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/CircularArrayLoop.md) | |
 |     462. 最少移动次数使数组元素相等 II              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/MinimumMovestoEqualArrayElementsII.md) | |
 |     494. 目标和              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/TargetSum.md) | |
 |     474. 一和零              | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/OnesandZeroes.md) | |
