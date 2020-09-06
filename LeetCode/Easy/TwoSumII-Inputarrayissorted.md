@@ -1,6 +1,7 @@
 #  Two Sum II - Input array is sorted
 
 ## 问题分析
+
 Given an array of integers that is already sorted in ascending order, find two numbers such that they add up to a specific target number.
 
 The function twoSum should return indices of the two numbers such that they add up to the target, where index1 must be less than index2.
@@ -20,6 +21,7 @@ Notes:
 * 你可以假设每个输入只对应唯一的答案，而且你不可以重复使用相同的元素。
 
 ## 代码实现
+
 1.
 ``` C
 /**
@@ -44,7 +46,7 @@ int* twoSum(int* numbers, int numbersSize, int target, int* returnSize) {
 }
 ```
 
-2.
+2.双指针
 ```python
 class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
@@ -59,6 +61,22 @@ class Solution:
             else:
                 j2 -= 1
 
+```
+
+3.双指针
+```python
+class Solution:
+    def twoSum(self, numbers: List[int], target: int) -> List[int]:
+        nlen = len(numbers)
+        lp, rp = 0, len(numbers)-1
+        while lp <= rp:
+            sumall = numbers[lp] + numbers[rp]
+            if sumall < target:
+                lp += 1
+            elif sumall > target:
+                rp -= 1
+            else:
+                return [lp+1, rp+1]
 ```
 
 ## 总结体会
