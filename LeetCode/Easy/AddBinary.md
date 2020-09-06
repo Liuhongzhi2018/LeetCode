@@ -14,7 +14,7 @@ The input strings are both non-empty and contains only characters 1 or 0.
 ## 代码实现
 
 1.
-``` C
+```C
 char *addBinary(char *a, char *b) {
 	int i;
 	int len1 = strlen(a);

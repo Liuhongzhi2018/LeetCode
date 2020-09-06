@@ -66,12 +66,14 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     455. 分发饼干                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/AssignCookies.md) | |
 |     504. 七进制数                | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/Base7.md) | |
 |     507. 完美数                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/PerfectNumber.md) | |
+|     532. 数组中的K-diff数对                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/K-diffPairsinanArray.md) | |
 |     605. 种花问题                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/CanPlaceFlowers.md) | |
 |     628. 三个数的最大乘积                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/MaximumProductofThreeNumbers.md) | |
 |     633. 平方数之和                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/SumofSquareNumbers.md) | |
 |     665. 非递减数列                | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/Non-decreasingArray.md) | |
 |     680. 验证回文字符串 Ⅱ                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ValidPalindromeII.md) | |
 |     744. 寻找比目标字母大的最小字母                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/FindSmallestLetterGreaterThanTarget.md) | |
+|     844. 比较含退格的字符串                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/BackspaceStringCompare.md) | |
 
 
 
@@ -162,10 +164,16 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     524. 通过删除字母匹配到字典里最长单词               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/LongestWordinDictionarythroughDeleting.md) | |
 |     540. 有序数组中的单一元素               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/SingleElementinaSortedArray.md) | |
 |     547. 朋友圈               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/FriendCircles.md) | |
+|     567. 字符串的排列               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/PermutationinString.md) | |
 |     583. 两个字符串的删除操作               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/DeleteOperationforTwoStrings.md) | |
 |     646. 最长数对链               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/MaximumLengthofPairChain.md) | |
 |     695. 岛屿的最大面积               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/MaxAreaofIsland.md) | |
+|     713. 乘积小于K的子数组               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/SubarrayProductLessThanK.md) | |
 |     763. 划分字母区间               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/PartitionLabels.md) | |
+|     826. 安排工作以达到最大收益               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/MostProfitAssigningWork.md) | |
+|     838. 推多米诺               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/PushDominoes.md) | |
+|     845. 数组中的最长山脉               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/LongestMountaininArray.md) | |
+|     881. 救生艇               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/BoatstoSavePeople.md) | |
 |     1091. 二进制矩阵中的最短路径               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/ShortestPathinBinaryMatrix.md) | |
 |     1143. 最长公共子序列               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/LongestCommonSubsequence.md) | |
 
@@ -189,3 +197,6 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     52. N皇后 II                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/N-QueensII.md) | |
 |     57. 插入区间                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/InsertInterval.md) | |
 |     76. 最小覆盖子串                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/MinimumWindowSubstring.md) | |
+|     632. 最小区间                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/SmallestRangeCoveringElementsfromKLists.md) | |
+|     828. 统计子串中的唯一字符                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/CountUniqueCharactersofAllSubstringsofaGivenString.md) | |
+
