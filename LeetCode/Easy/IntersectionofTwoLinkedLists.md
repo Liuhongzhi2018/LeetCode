@@ -1,6 +1,7 @@
 #  Intersection of Two Linked Lists
 
 ## 问题分析
+
 Write a program to find the node at which the intersection of two singly linked lists begins.
 
 Notes:
@@ -20,6 +21,8 @@ Notes:
 * 程序尽量满足 O(n) 时间复杂度，且仅用 O(1) 内存。
 
 ## 代码实现
+
+1.
 ``` C
 /**
  * Definition for singly-linked list.
@@ -42,6 +45,29 @@ struct ListNode *getIntersectionNode(struct ListNode *headA, struct ListNode *he
     }
     return p1;
 }  
+```
+
+2.
+```python
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+class Solution:
+    def getIntersectionNode(self, headA: ListNode, headB: ListNode) -> ListNode:
+        A = set()
+        p1 = headA
+        p2 = headB
+        while p1:
+            A.add(p1)
+            p1 = p1.next
+        while p2:
+            if p2 in A:
+                return p2
+            p2 = p2.next
+        return None
 ```
 
 ## 总结体会
