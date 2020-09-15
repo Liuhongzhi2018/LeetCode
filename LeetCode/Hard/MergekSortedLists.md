@@ -72,6 +72,32 @@ class Solution:
         return dumb.next
 ```
 
+3.暴力法
+```python
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, val=0, next=None):
+#         self.val = val
+#         self.next = next
+class Solution:
+    def mergeKLists(self, lists: List[ListNode]) -> ListNode:
+        nodes = []
+        head = point = ListNode(0)
+        for l in lists:
+            while l:
+                nodes.append(l.val)
+                l = l.next
+        for x in sorted(nodes):
+            point.next = ListNode(x)
+            point = point.next
+        return head.next
+```
+
+4.堆排序优先队列
+```python
+
+```
+
 
 ## 思路总结
 

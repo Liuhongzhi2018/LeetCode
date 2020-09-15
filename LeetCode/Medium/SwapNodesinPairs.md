@@ -55,6 +55,30 @@ class Solution:
         return dumb.next
 ```
 
+3.递归法
+```python
+# Definition for singly-linked list.
+# class ListNode:
+#     def __init__(self, x):
+#         self.val = x
+#         self.next = None
+
+class Solution:
+    def swapPairs(self, head: ListNode) -> ListNode:
+         #  终止条件：当前没有节点或者只有一个节点，肯定就不需要交换了
+        if not head or not head.next:
+            return head
+        # 需要交换的两个节点是 head 和 head.next
+        lp = head
+        rp = head.next
+        # firstNode 连接后面交换完成的子链表
+        lp.next = self.swapPairs(rp.next)
+        # secondNode 连接 firstNode
+        rp.next = lp
+        # 返回值：返回交换完成的子链表
+        return rp
+```
+
 ## 总结体会
 
 本题要求将所给的链表，相邻节点两两交换位置，返回变换之后的新链表。
