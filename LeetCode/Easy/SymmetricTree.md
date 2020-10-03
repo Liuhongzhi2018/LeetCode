@@ -1,12 +1,15 @@
 # Symmetric Tree
 
 ## 问题分析
+
 Given a binary tree, check whether it is a mirror of itself (ie, symmetric around its center).
 
 给定一个二叉树，检查它是否是镜像对称的。
 
 
 ## 代码实现
+
+1.
 ``` C
 /**
 * Definition for a binary tree node.
@@ -29,6 +32,11 @@ bool recursion(struct TreeNode* p, struct TreeNode* q) {
     if ((p == NULL&&q != NULL) || (p != NULL&&q == NULL))  return false;
     else return (p->val == q->val) && recursion(p->right, q->left) && recursion(p->left, q->right);
 }
+```
+
+2.
+```python
+
 ```
 
 ## 总结体会

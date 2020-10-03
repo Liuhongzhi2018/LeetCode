@@ -8,11 +8,16 @@
 
 [五分钟力扣 Leetcode](https://www.bilibili.com/video/BV1vE411A7Mj?from=search&seid=10797634719372911097) 
 
+[首次总结：LeetCode应该怎么刷](https://blog.csdn.net/fuxuemingzhu/article/details/105183554)
+
+[代码模板，刷题必会](https://blog.csdn.net/fuxuemingzhu/article/details/101900729)
+
 [LeetCode Cookbook](https://github.com/halfrost/LeetCode-Go) [Download link](https://github.com/halfrost/LeetCode-Go/releases/download/1.5.20/cookbook.pdf)
 
 Python可视化编程： http://pythontutor.com/live.html#mode=edit 
 
 五分钟力扣 Leetcode: https://www.bilibili.com/video/BV1vE411A7Mj?from=search&seid=14475795548188315467
+
 
 ## 题目清单
 
