@@ -189,6 +189,7 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     838. 推多米诺               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/PushDominoes.md) | |
 |     845. 数组中的最长山脉               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/LongestMountaininArray.md) | |
 |     881. 救生艇               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/BoatstoSavePeople.md) | |
+|     904. 水果成篮               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/FruitIntoBaskets.md) | |
 |     1091. 二进制矩阵中的最短路径               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/ShortestPathinBinaryMatrix.md) | |
 |     1143. 最长公共子序列               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/LongestCommonSubsequence.md) | |
 

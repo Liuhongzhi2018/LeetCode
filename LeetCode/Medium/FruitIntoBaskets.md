@@ -1,40 +1,60 @@
-#  2 Keys Keyboard
+#  Fruit Into Baskets
 
 ## 问题描述
 
-Initially on a notepad only one character 'A' is present. You can perform two operations on this notepad for each step:
+In a row of trees, the i-th tree produces fruit with type tree[i].
 
-    Copy All: You can copy all the characters present on the notepad (partial copy is not allowed).
-    Paste: You can paste the characters which are copied last time.
+You start at any tree of your choice, then repeatedly perform the following steps:
 
-Given a number n. You have to get exactly n 'A' on the notepad by performing the minimum number of steps permitted. Output the minimum number of steps to get n 'A'.
+    Add one piece of fruit from this tree to your baskets.  If you cannot, stop.
+    Move to the next tree to the right of the current tree.  If there is no tree to the right, stop.
 
-最初在一个记事本上只有一个字符 'A'。你每次可以对这个记事本进行两种操作：
+Note that you do not have any choice after the initial choice of starting tree: you must perform step 1, then step 2, then back to step 1, then step 2, and so on until you stop.
 
-    Copy All (复制全部) : 你可以复制这个记事本中的所有字符(部分的复制是不允许的)。
-    Paste (粘贴) : 你可以粘贴你上一次复制的字符。
+You have two baskets, and each basket can carry any quantity of fruit, but you want each basket to only carry one type of fruit each.
 
-给定一个数字 n 。你需要使用最少的操作次数，在记事本中打印出恰好 n 个 'A'。输出能够打印出 n 个 'A' 的最少操作次数。
+What is the total amount of fruit you can collect with this procedure?
+
+在一排树中，第 i 棵树产生 tree[i] 型的水果。
+你可以从你选择的任何树开始，然后重复执行以下步骤：
+
+    把这棵树上的水果放进你的篮子里。如果你做不到，就停下来。
+    移动到当前树右侧的下一棵树。如果右边没有树，就停下来。
+
+请注意，在选择一颗树后，你没有任何选择：你必须执行步骤 1，然后执行步骤 2，然后返回步骤 1，然后执行步骤 2，依此类推，直至停止。
+
+你有两个篮子，每个篮子可以携带任何数量的水果，但你希望每个篮子只携带一种类型的水果。
+
+用这个程序你能收集的水果树的最大总量是多少？
 
 
 ## 代码实现
 
-1.动态规划
+1.滑动窗口
 ```python
 class Solution:
-    def minSteps(self, n: int) -> int:
-        if n == 1: 
-            return 0 
-        dp = [[n]*n for _ in range(n)] 
-        #dp[i][j] 记事本上有i+1个A，粘贴板上有j+1个A 
-        dp[0][0] = 1 
-        for i in range(1,n): 
-            for j in range(i): 
-                dp[i][j] = dp[i-j-1][j] + 1 
-            dp[i][i] = min(dp[i]) + 1 
-        return dp[-1][-1] -1
+    def totalFruit(self, tree: List[int]) -> int:
+        ans = i = 0 
+        count = collections.Counter() 
+        for j, x in enumerate(tree): 
+            count[x] += 1 
+            while len(count) >= 3: 
+                count[tree[i]] -= 1 
+                if count[tree[i]] == 0: 
+                    del count[tree[i]] 
+                i += 1 
+            ans = max(ans, j - i + 1) 
+        return ans
 ```
 
 
 ## 思路总结
 
+想法  
+在方法 1中，我们希望找到最长的包含两种不同“类型”的子序列，我们称这样的子序列为合法的。  
+假设我们考虑所有以下标 j 为结尾的合法子序列，那么一定有一个最小的开始下标 i：称之为 opt(j) = i。  
+我们会发现这个 opt(j) 是一个单调递增的函数，这是因为所有合法子序列的子序列一定也是合法的。
+
+算法  
+模拟一个滑动窗口，维护变量 i 是最小的下标满足 [i, j] 是合法的子序列。  
+维护 count 是序列中各种类型的个数，这使得我们可以很快知道子序列中是否含有 3 中类型。
