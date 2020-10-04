@@ -6,6 +6,8 @@
 
 [LeetCode题解答案集合](https://blog.csdn.net/qq_32424059/article/details/88855423)
 
+[图灵星球  方法与误区](https://turingplanet.org/2020/05/18/%e5%a6%82%e4%bd%95%e6%ad%a3%e7%a1%ae%e5%88%b7%e9%a2%98%ef%bc%9fleetcode%e5%88%b7%e9%a2%98%e6%96%b9%e6%b3%95%e8%ae%ba%e3%80%90leetcode%e5%a5%97%e8%b7%af%e6%95%99%e7%a8%8b1%e3%80%91/)
+
 [五分钟力扣 Leetcode](https://www.bilibili.com/video/BV1vE411A7Mj?from=search&seid=10797634719372911097) 
 
 [首次总结：LeetCode应该怎么刷](https://blog.csdn.net/fuxuemingzhu/article/details/105183554)
