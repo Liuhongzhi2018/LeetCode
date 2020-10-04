@@ -219,3 +219,11 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     632. 最小区间                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/SmallestRangeCoveringElementsfromKLists.md) | |
 |     828. 统计子串中的唯一字符                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/CountUniqueCharactersofAllSubstringsofaGivenString.md) | |
 
+
+
+
+## 算法思想
+
+|                  Topic                   |                  Title                   |                  Python                  |                   C++                    | 
+| :--------------------------------------:| :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | 
+|    Two Pointers               |     167. 两数之和 II - 输入有序数组      | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/TwoSumII-Inputarrayissorted.md) |
