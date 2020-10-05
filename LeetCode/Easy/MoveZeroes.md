@@ -69,6 +69,27 @@ class Solution:
             nums[i] = 0
 ```
 
+4.前后双指针
+```
+class Solution:
+    def moveZeroes(self, nums: List[int]) -> None:
+        """
+        Do not return anything, modify nums in-place instead.
+        """
+        nlen = len(nums)
+        for lp in range(nlen-1):
+            if nums[lp] != 0:
+                continue
+            else:
+                rp = lp + 1
+                while rp < nlen:
+                    if nums[rp] != 0:
+                        nums[lp], nums[rp] = nums[rp], nums[lp]
+                        break
+                    else:
+                        rp += 1
+```
+
 ## 总结体会
 
 本题要求在给定数组保持非零元素相对顺序不变的前提下，将所有0元素移动到末尾，实际上是依次找到非零元素并将其从头开始放入数组中。

@@ -33,6 +33,40 @@ class Solution:
 
 ```
 
+2.同向双指针
+```python
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        if not nums:
+            return 0
+        if len(nums) <= 2:
+            return len(nums)
+
+        index, i = 1, 2
+        while i < len(nums):
+            if nums[i] != nums[index-1]:
+                index += 1
+                nums[index] = nums[i]
+            i += 1
+        return index+1
+```
+
+3.扩展,每个元素最多出现k次
+```python
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        if not nums: return 0
+        if len(nums) <= 2: return len(nums)
+        k = 2
+        index, i = k-1, k
+        while i < len(nums):
+            if nums[i] != nums[index-k+1]:
+                index += 1
+                nums[index] = nums[i]
+            i += 1
+        return index+1
+```
+
 
 ## 思路总结
 
@@ -45,3 +79,9 @@ class Solution:
     若当前元素与前一个元素相同，即 nums[i]==nums[i-1]，则增加计数 count++。若 count > 2，则说明遇到了多余的重复元素 ，要从数组中删除它。由于我们知道这个元素的索引，可以使用 del，pop 或 remove 操作（或你选择语言支持的任何相应的操作）从数组中删除它。由于删除了一个元素，所以我们的索引应该要减一。
     若当前元素与前一个元素不相同，即 nums[i] != nums[i - 1]，说明我们遇到了一个新元素，则更新 count = 1。
     由于我们从原始数组中删除了所有多余的重复项，所以最终在原数组只保留了有效元素，返回数组长度。
+    
+同向双指针：  
+如果题目要求每个元素最多出现k次代码怎么写。  
+其实就是对于指针运动条件的考量，什么时候需要移动index指针?  
+1.nums[i] != nums[index] 表示当前遍历的位置i和不重复集合的右边界不一样，那么肯定能放入不重复集合了。  
+2.题目要求每个元素最多出现k次,那么如果nums[i] != nums[index-k+1] 就可以保证不会存在连续的k个元素是值是重复的。

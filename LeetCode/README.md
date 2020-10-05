@@ -85,6 +85,7 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     680. 验证回文字符串 Ⅱ                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ValidPalindromeII.md) | |
 |     744. 寻找比目标字母大的最小字母                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/FindSmallestLetterGreaterThanTarget.md) | |
 |     844. 比较含退格的字符串                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/BackspaceStringCompare.md) | |
+|     1047. 删除字符串中的所有相邻重复项                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/RemoveAllAdjacentDuplicatesInString.md) | |
 
 
 
