@@ -1,6 +1,7 @@
 #  Container With Most Water
 
 ## 问题分析
+
 Given n non-negative integers a1, a2, ..., an, where each represents a point at coordinate (i, ai). n vertical lines are drawn such that the two endpoints of line i is at (i, ai) and (i, 0). Find two lines, which together with x-axis forms a container, such that the container contains the most water.
 
 Note: You may not slant the container and n is at least 2. 
@@ -11,6 +12,7 @@ Note: You may not slant the container and n is at least 2.
 
 
 ## 代码实现
+
 1.
 ``` C
 int maxArea(int* height, int heightSize) {
@@ -47,6 +49,25 @@ class Solution:
                 r -= 1
         return res
 ```
+
+3.反向双指针
+```
+class Solution:
+    def maxArea(self, height: List[int]) -> int:
+        nheight = len(height)
+        lp, rp = 0, nheight-1
+        maxv = 0
+        while lp < rp:
+            h = height[lp] if height[lp] < height[rp] else height[rp]
+            cur = (rp - lp) * h
+            maxv = cur if cur > maxv else maxv
+            if height[lp] < height[rp]:
+                lp += 1
+            else:
+                rp -= 1
+        return maxv
+```
+
 
 ## 总结体会
 

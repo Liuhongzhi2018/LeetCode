@@ -11,6 +11,7 @@ Do not allocate extra space for another array, 　you must do this by modifying 
 不要使用额外的数组空间，你必须在原地修改输入数组并在使用 O(1) 额外空间的条件下完成。
 
 ## 代码实现
+
 1.
 ``` C
 int removeDuplicates(int* nums, int numsSize)
@@ -73,4 +74,5 @@ class Solution:
 
 思路是用下标保存不重复的元素，然后返回下标+1即可。
 
-
+双指针法：  
+左指针用于保存当前不重复的元素下标，右指针从左向右遍历列表，每一个元素都与当前元素比较，如果不同则移动左指针，将不同元素保存在当前位置。
