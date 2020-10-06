@@ -233,3 +233,4 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 | :--------------------------------------:| :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | 
 |    Two Pointers               |     167. 两数之和 II - 输入有序数组      | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/TwoSumII-Inputarrayissorted.md) |
 |    Binary Search               |     410. 分割数组的最大值      | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/SplitArrayLargestSum.md) |
+|    Binary Search               |     1231. 分享巧克力      | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/DivideChocolate.md) |
