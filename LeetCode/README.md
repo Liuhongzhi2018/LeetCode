@@ -193,9 +193,11 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     845. 数组中的最长山脉               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/LongestMountaininArray.md) | |
 |     881. 救生艇               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/BoatstoSavePeople.md) | |
 |     904. 水果成篮               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/FruitIntoBaskets.md) | |
+|     1011. 在 D 天内送达包裹的能力               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/CapacityToShipPackagesWithinDDays.md) | |
 |     1062. 最长重复子串               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/LongestRepeatingSubstring.md) | |
 |     1091. 二进制矩阵中的最短路径               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/ShortestPathinBinaryMatrix.md) | |
 |     1143. 最长公共子序列               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/LongestCommonSubsequence.md) | |
+|     1292. 元素和小于等于阈值的正方形的最大边长               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/MaximumSideLengthofaSquarewithSumLessthanorEqualtoThreshold.md) | |
 
 
 ### 困难
@@ -236,3 +238,4 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |    Binary Search               |     852. 山脉数组的峰顶索引      | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/PeakIndexinaMountainArray.md) |
 |    Binary Search               |     1011. 在 D 天内送达包裹的能力      | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/CapacityToShipPackagesWithinDDays.md) |
 |    Binary Search               |     1231. 分享巧克力      | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/DivideChocolate.md) |
+|    Binary Search               |     1292. 元素和小于等于阈值的正方形的最大边长      | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/MaximumSideLengthofaSquarewithSumLessthanorEqualtoThreshold.md) |
