@@ -1,11 +1,13 @@
 #  Delete Node in a Linked List
 
 ## 问题分析
+
 Write a function to delete a node (except the tail) in a singly linked list, given only access to that node.
 
 请编写一个函数，使其可以删除某个链表中给定的（非末尾的）节点，您将只被给予要求被删除的节点。
 
 ## 代码实现
+1.
 ``` C
 /**
  * Definition for singly-linked list.
