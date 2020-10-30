@@ -67,7 +67,7 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     283. 移动零                | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/MoveZeroes.md) | |
 |     303. 区域和检索 - 数组不可变                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/RangeSumQuery.md) | |
 |     326. 3的幂                | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/PowerofThree.md) | |
-|     344. 反转字符串                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ReverseVowelsofaString.md) | |
+|     344. 反转字符串                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ReverseString.md) | |
 |     345. 反转字符串中的元音字母                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ReverseVowelsofaString.md) | |
 |     349. 两个数组的交集                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/IntersectionofTwoArrays.md) | |
 |     367. 有效的完全平方数                 | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ValidPerfectSquare.md) | |
@@ -229,12 +229,13 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 
 
 
-
 ## 算法思想
 
 |                  Topic                   |                  Title                   |                  Python                  |                   C++                    | 
 | :--------------------------------------:| :--------------------------------------: | :--------------------------------------: | :--------------------------------------: | 
+|    Two Pointers               |     26. 删除排序数组中的重复项      | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/RemoveDuplicatesfromSortedArray.md) |
 |    Two Pointers               |     167. 两数之和 II - 输入有序数组      | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/TwoSumII-Inputarrayissorted.md) |
+|    Two Pointers               |     344. 反转字符串      | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/ReverseString.md) |
 |    Binary Search               |     410. 分割数组的最大值      | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/SplitArrayLargestSum.md) |
 |    Binary Search               |     852. 山脉数组的峰顶索引      | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Easy/PeakIndexinaMountainArray.md) |
 |    Binary Search               |     1011. 在 D 天内送达包裹的能力      | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/CapacityToShipPackagesWithinDDays.md) |
