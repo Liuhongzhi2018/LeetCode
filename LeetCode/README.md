@@ -180,6 +180,7 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |     524. 通过删除字母匹配到字典里最长单词               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/LongestWordinDictionarythroughDeleting.md) | |
 |     540. 有序数组中的单一元素               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/SingleElementinaSortedArray.md) | |
 |     547. 朋友圈               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/FriendCircles.md) | |
+|     560. 和为K的子数组               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/SubarraySumEqualsK.md) | |
 |     567. 字符串的排列               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/PermutationinString.md) | |
 |     583. 两个字符串的删除操作               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/DeleteOperationforTwoStrings.md) | |
 |     646. 最长数对链               | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/MaximumLengthofPairChain.md) | |
@@ -241,3 +242,4 @@ Python可视化编程： http://pythontutor.com/live.html#mode=edit
 |    Binary Search               |     1011. 在 D 天内送达包裹的能力      | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/CapacityToShipPackagesWithinDDays.md) |
 |    Binary Search               |     1231. 分享巧克力      | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Hard/DivideChocolate.md) |
 |    Binary Search               |     1292. 元素和小于等于阈值的正方形的最大边长      | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/MaximumSideLengthofaSquarewithSumLessthanorEqualtoThreshold.md) |
+|    Heap               |     215. 数组中的第K个最大元素      | [Python](https://github.com/Liuhongzhi2018/LeetCode/blob/master/LeetCode/Medium/KthLargestElementinanArray.md) |
